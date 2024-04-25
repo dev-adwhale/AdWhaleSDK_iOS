@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.license = { :type => 'MIT', :text => 'LICENSE' }
     s.author             = { "dev-adwhale" => "adwhale_sdk@fsn.co.kr" }
     s.source       = { :git => 'https://github.com/dev-adwhale/AdWhaleSDK_iOS.git', :tag => s.version.to_s }
-    s.vendored_frameworks = "AdWhaleSDK.xcframework"
+    s.vendored_frameworks = 'AdWhaleSDK.xcframework', 'ios/CaulySDK.xcframework'
     s.platform = :ios
     s.swift_version = "4.0"
     s.ios.deployment_target  = '12.0'
@@ -40,6 +40,5 @@ Pod::Spec.new do |s|
     s.dependency 'GoogleMobileAdsMediationPangle', '5.8.0.8.0'
     s.dependency 'GoogleMobileAdsMediationUnity', '4.10.0.0'
     s.dependency 'GoogleMobileAdsMediationIronSource', '7.9.1.0.0'
-    s.vendored_frameworks = 'ios/CaulySDK.xcframework'
 
 end
