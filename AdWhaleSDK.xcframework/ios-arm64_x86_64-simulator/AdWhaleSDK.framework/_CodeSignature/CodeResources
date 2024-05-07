@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/AdWhaleSDK-Swift.h</key>
 		<data>
-		kcgAFING18RB7zfE3cO1ySt4eE4=
+		gPk9LRgKP+TBy6TJTJ03eCz9q1o=
 		</data>
 		<key>Headers/AdWhaleSDK.h</key>
 		<data>
@@ -26,43 +26,43 @@
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		9JXOq77llNwbgLy2fe3d4s1I84s=
+		GgBmFZTP+5O2MXS4by/FMifQ0BY=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dyenGy/UrMA2DUUH0baEDFrILOI=
+		kpeq1t8VxWslTQUOactrxmZKTmQ=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		bSUx1Vt0rrhfDTN6cFoGbRI2iKY=
+		XQmKqxWhGAWGzsbVRPcIZQZurUk=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dyenGy/UrMA2DUUH0baEDFrILOI=
+		kpeq1t8VxWslTQUOactrxmZKTmQ=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jVxybTjLi1wXjFxZyLNBA5stHIM=
+		5eQdpyOPbQTxSsfTq8Nz68BNlT4=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		9JXOq77llNwbgLy2fe3d4s1I84s=
+		GgBmFZTP+5O2MXS4by/FMifQ0BY=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4d+puL6Hylvm+Xvk3BxmWmdrUn8=
+		+hxVqDCL0b3fUWjgB4qs1LIVG6I=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		t9B/JDE26arYPjQtYbpR8zn9X1o=
+		Gk2iI/K/Z3xzK83yJsaIqKS2L2M=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4d+puL6Hylvm+Xvk3BxmWmdrUn8=
+		+hxVqDCL0b3fUWjgB4qs1LIVG6I=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BnwA2nMyuGspOpBqUF/wCHgWDn4=
+		SV1epVCuuRzsXxxFBMUuM21ElMY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TAPE0n+E6Px/iGzdajVXD2dJjIbcp2tyiij3IVUUBqU=
+			WGG/FMt0DUDLcmZuanK93vUh50fcINDa5yJkOcjCRLI=
 			</data>
 		</dict>
 		<key>Headers/AdWhaleSDK.h</key>
@@ -123,70 +123,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SvshlNeD6yo3U0Ur1VDp/PhoR/4IY/umLndyHxX+4A4=
+			KEdzXRav+UFL6I33pZ7L4aw4l14lQyk2+CHq2z9Trnc=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gi1KInmFEzIMlzc+7uKPiipJqnPKfYOAJrkoPu+BZn0=
+			11yujTHAOZWEwIYWF7LqDJ9Ve8Zd1RVSzISP5Lk51H0=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gd6uB6kbcK/f5Wr1tckuErUOB+4Xq2bnAZKPOOrX1NY=
+			Euc9YhIESHvPS0pQEDLOEy+jxhbOEPypPc2TJW/nVEU=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gi1KInmFEzIMlzc+7uKPiipJqnPKfYOAJrkoPu+BZn0=
+			11yujTHAOZWEwIYWF7LqDJ9Ve8Zd1RVSzISP5Lk51H0=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XJ8l+6Xqt07c0tEDZjtTVBMd40i8szQoavmEjq0MxX8=
+			taksbhXTTMihn2caW4SuI4F2/iuIiu1mKG3TMpf6yEQ=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SvshlNeD6yo3U0Ur1VDp/PhoR/4IY/umLndyHxX+4A4=
+			KEdzXRav+UFL6I33pZ7L4aw4l14lQyk2+CHq2z9Trnc=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8MxQfl9d7Aar6Pn9kVcEytKU/Tq/g628X7q3vedm9Us=
+			/ZAJfUrP6Ji5UZRt4U0m6RnbQxxqsO8MoXNCLIY8eMw=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bmw3RjTS08wYXbzg3DN5YpTENl+o26xGbatxXaNM36k=
+			QZmhJAtR/tFALdL3+4gTIN+Z/BGEdOQFpFoaxI5PSVs=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8MxQfl9d7Aar6Pn9kVcEytKU/Tq/g628X7q3vedm9Us=
+			/ZAJfUrP6Ji5UZRt4U0m6RnbQxxqsO8MoXNCLIY8eMw=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JpjfNaw/A3MO0v8vHa2GL8eZS2btZkugKjU4JiREsJQ=
+			DIlJs8YDuvjqD9Y1WETPrcffecxvoqGlO6HDCFLPgcs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

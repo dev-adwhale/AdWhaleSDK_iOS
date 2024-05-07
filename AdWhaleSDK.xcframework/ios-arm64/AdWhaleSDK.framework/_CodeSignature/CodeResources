@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/AdWhaleSDK-Swift.h</key>
 		<data>
-		0LRl5YyXSYFxNL1XlWqwSa3K2cg=
+		/xx6V3s56juwbCovkn64pa9WBN8=
 		</data>
 		<key>Headers/AdWhaleSDK.h</key>
 		<data>
@@ -26,23 +26,23 @@
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		9JXOq77llNwbgLy2fe3d4s1I84s=
+		GgBmFZTP+5O2MXS4by/FMifQ0BY=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		VReWIWTWgHaome+y3U2sZOlmw/Q=
+		RbvV+/s+WBu2+eQZCJHYPOAACMo=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		IaUwkinsk6Csmiuj741BuV7cJf8=
+		gnHQ3zLRiHoLDbc/3oqNOOeF87M=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		VReWIWTWgHaome+y3U2sZOlmw/Q=
+		RbvV+/s+WBu2+eQZCJHYPOAACMo=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		hffmgiWIuuc7Nl//lvB0DHKGLc8=
+		M8gxgfFrSMbL5If+B90mHScsRS0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MEleE+gFqOwpJZzxifh6LbOwttG5mSi3TMsHBS9PdE4=
+			X7jl3oZ+JWZXJ0WwDfq7beDY2Bh5O9K+mUKIM3TRjik=
 			</data>
 		</dict>
 		<key>Headers/AdWhaleSDK.h</key>
@@ -103,35 +103,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SvshlNeD6yo3U0Ur1VDp/PhoR/4IY/umLndyHxX+4A4=
+			KEdzXRav+UFL6I33pZ7L4aw4l14lQyk2+CHq2z9Trnc=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zUJfV4L0ffQ82CURW40W0fFRpTpEGIa19wMNrKdtQ5w=
+			473f8BiqEeyUzcMeOYaokistwng1b7ROhzdhkxmTaKk=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ImKfo5parkg3nv3X7sMAGW8E0La4djb+ToAse5n52k=
+			HxlT1AzdM1+xPYWNK7y2Uz06YTpvnWIlgDI+HRPM0hk=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zUJfV4L0ffQ82CURW40W0fFRpTpEGIa19wMNrKdtQ5w=
+			473f8BiqEeyUzcMeOYaokistwng1b7ROhzdhkxmTaKk=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xZ3eLJ70FwVBZ/Xl71MFWNctlR7O8MDQ/u4Gp0XUG40=
+			bS5UNcnWLkOP/6qTO2i/MDLrWDIJrtsWJ7W02q/49aE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

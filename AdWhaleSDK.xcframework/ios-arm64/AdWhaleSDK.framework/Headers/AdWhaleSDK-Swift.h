@@ -344,7 +344,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAppOp
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 - (void)loadAd:(NSString * _Nonnull)adUnitId;
-- (void)showAdIfAvailableWithViewController:(UIViewController * _Nonnull)viewController;
+- (void)showAdIfAvailable;
+- (void)showAdIfAvailable:(UIViewController * _Nullable)viewController;
 @end
 
 @protocol GADFullScreenPresentingAd;
