@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/AdWhaleSDK-Swift.h</key>
 		<data>
-		gPk9LRgKP+TBy6TJTJ03eCz9q1o=
+		7ARYxesf9oMesF9iF7eM+MyPIiQ=
 		</data>
 		<key>Headers/AdWhaleSDK.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		GgBmFZTP+5O2MXS4by/FMifQ0BY=
+		hP3rTM3o5sNazItkb+QuTb087o8=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kpeq1t8VxWslTQUOactrxmZKTmQ=
+		NvOQ0/0KeXWEoL1bPUn4XHZNzaQ=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kpeq1t8VxWslTQUOactrxmZKTmQ=
+		NvOQ0/0KeXWEoL1bPUn4XHZNzaQ=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5eQdpyOPbQTxSsfTq8Nz68BNlT4=
+		81EnL0w+mfLCTsuzt8lDc/d1Spw=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		GgBmFZTP+5O2MXS4by/FMifQ0BY=
+		hP3rTM3o5sNazItkb+QuTb087o8=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+hxVqDCL0b3fUWjgB4qs1LIVG6I=
+		AGxKb1sEomwBERoE6XxDWwqmJ3U=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+hxVqDCL0b3fUWjgB4qs1LIVG6I=
+		AGxKb1sEomwBERoE6XxDWwqmJ3U=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SV1epVCuuRzsXxxFBMUuM21ElMY=
+		zFVUpG8i8kkvlYL+TzEoo2Zg2ys=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		RA+YYVjMufzSKjCf8a77GqlBzbg=
+		mKv3fPeAWkwCtKGHIJx0lSzCIPY=
 		</data>
 		<key>UnityAds.bundle/Info.plist</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WGG/FMt0DUDLcmZuanK93vUh50fcINDa5yJkOcjCRLI=
+			52D3NGyW6B6FS3glwDbOtCOZr1ytghKojLilSni1nhw=
 			</data>
 		</dict>
 		<key>Headers/AdWhaleSDK.h</key>
@@ -123,14 +123,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KEdzXRav+UFL6I33pZ7L4aw4l14lQyk2+CHq2z9Trnc=
+			N1pGWmqQ1SGxYjZVojyp8x6lCtFGl4tbR4bq4ngi9VA=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			11yujTHAOZWEwIYWF7LqDJ9Ve8Zd1RVSzISP5Lk51H0=
+			OmTTvb7aMGa0kdxAsjDIJmPd8KQ7b8E4vbizQyuF0DY=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -144,28 +144,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			11yujTHAOZWEwIYWF7LqDJ9Ve8Zd1RVSzISP5Lk51H0=
+			OmTTvb7aMGa0kdxAsjDIJmPd8KQ7b8E4vbizQyuF0DY=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			taksbhXTTMihn2caW4SuI4F2/iuIiu1mKG3TMpf6yEQ=
+			9B2yam8o2Y1Pd59vCUtRH7MtkzgH5JTTM0155/Ojz5A=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KEdzXRav+UFL6I33pZ7L4aw4l14lQyk2+CHq2z9Trnc=
+			N1pGWmqQ1SGxYjZVojyp8x6lCtFGl4tbR4bq4ngi9VA=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ZAJfUrP6Ji5UZRt4U0m6RnbQxxqsO8MoXNCLIY8eMw=
+			ZMO+qD9pS5IpNZUEieZy8Cxej7QgtNQN1jeaG7d1ewc=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -179,14 +179,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ZAJfUrP6Ji5UZRt4U0m6RnbQxxqsO8MoXNCLIY8eMw=
+			ZMO+qD9pS5IpNZUEieZy8Cxej7QgtNQN1jeaG7d1ewc=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DIlJs8YDuvjqD9Y1WETPrcffecxvoqGlO6HDCFLPgcs=
+			e4dPQ3UPhR1l2rOi8q0EVBxnjJ2l2AdFVVnmL1tiFlY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -200,7 +200,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oNtnfDABiMyUu21/Tz5iYKhxLqW9PioY9ybr1BrcgUU=
+			gbpqaQNS6Oq1k7z0c4tSHt0GkCG4jjwtOCmF7rIqIjA=
 			</data>
 		</dict>
 		<key>UnityAds.bundle/Info.plist</key>

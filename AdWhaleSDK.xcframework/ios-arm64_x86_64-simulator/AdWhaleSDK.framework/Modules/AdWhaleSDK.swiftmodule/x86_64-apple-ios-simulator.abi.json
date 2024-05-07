@@ -9348,32 +9348,34 @@
         "children": [
           {
             "kind": "Var",
-            "name": "appOpenAd",
-            "printedName": "appOpenAd",
+            "name": "adUnitId",
+            "printedName": "adUnitId",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "GoogleMobileAds.GADAppOpenAd?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GADAppOpenAd",
-                    "printedName": "GoogleMobileAds.GADAppOpenAd",
-                    "usr": "c:objc(cs)GADAppOpenAd"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10AdWhaleSDK0ab7AppOpenA0C03appeA0So06GADAppeA0CSgvp",
-            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C03appeA0So06GADAppeA0CSgvp",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAppOpenAd(py)adUnitId",
+            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C8adUnitIdSSSgvp",
             "moduleName": "AdWhaleSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -9385,24 +9387,27 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "GoogleMobileAds.GADAppOpenAd?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GADAppOpenAd",
-                        "printedName": "GoogleMobileAds.GADAppOpenAd",
-                        "usr": "c:objc(cs)GADAppOpenAd"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10AdWhaleSDK0ab7AppOpenA0C03appeA0So06GADAppeA0CSgvg",
-                "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C03appeA0So06GADAppeA0CSgvg",
+                "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAppOpenAd(im)adUnitId",
+                "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C8adUnitIdSSSgvg",
                 "moduleName": "AdWhaleSDK",
                 "implicit": true,
                 "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -9418,24 +9423,27 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "GoogleMobileAds.GADAppOpenAd?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GADAppOpenAd",
-                        "printedName": "GoogleMobileAds.GADAppOpenAd",
-                        "usr": "c:objc(cs)GADAppOpenAd"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10AdWhaleSDK0ab7AppOpenA0C03appeA0So06GADAppeA0CSgvs",
-                "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C03appeA0So06GADAppeA0CSgvs",
+                "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAppOpenAd(im)setAdUnitId:",
+                "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C8adUnitIdSSSgvs",
                 "moduleName": "AdWhaleSDK",
                 "implicit": true,
                 "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -9450,8 +9458,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10AdWhaleSDK0ab7AppOpenA0C03appeA0So06GADAppeA0CSgvM",
-                "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C03appeA0So06GADAppeA0CSgvM",
+                "usr": "s:10AdWhaleSDK0ab7AppOpenA0C8adUnitIdSSSgvM",
+                "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C8adUnitIdSSSgvM",
                 "moduleName": "AdWhaleSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -9732,34 +9740,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "loadAd",
-            "printedName": "loadAd(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAppOpenAd(im)loadAd:",
-            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C04loadA0yySSF",
-            "moduleName": "AdWhaleSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -13857,8 +13837,22 @@
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 324,
+      "length": 4,
+      "value": "3600"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 331,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 435,
+      "offset": 574,
       "length": 5,
       "value": "false"
     }

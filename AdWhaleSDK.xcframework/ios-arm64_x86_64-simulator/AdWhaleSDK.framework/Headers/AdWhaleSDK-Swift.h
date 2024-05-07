@@ -338,12 +338,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAds *
 
 SWIFT_CLASS("_TtC10AdWhaleSDK16AdWhaleAppOpenAd")
 @interface AdWhaleAppOpenAd : NSObject
+@property (nonatomic, copy) NSString * _Nullable adUnitId;
 @property (nonatomic, weak) id <AdWhaleAppOpenAdDelegate> _Nullable appOpenAdDelegate;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAppOpenAd * _Nonnull shared;)
 + (AdWhaleAppOpenAd * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-- (void)loadAd:(NSString * _Nonnull)adUnitId;
 - (void)showAdIfAvailable;
 - (void)showAdIfAvailable:(UIViewController * _Nullable)viewController;
 @end
@@ -939,12 +939,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAds *
 
 SWIFT_CLASS("_TtC10AdWhaleSDK16AdWhaleAppOpenAd")
 @interface AdWhaleAppOpenAd : NSObject
+@property (nonatomic, copy) NSString * _Nullable adUnitId;
 @property (nonatomic, weak) id <AdWhaleAppOpenAdDelegate> _Nullable appOpenAdDelegate;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAppOpenAd * _Nonnull shared;)
 + (AdWhaleAppOpenAd * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-- (void)loadAd:(NSString * _Nonnull)adUnitId;
 - (void)showAdIfAvailable;
 - (void)showAdIfAvailable:(UIViewController * _Nullable)viewController;
 @end

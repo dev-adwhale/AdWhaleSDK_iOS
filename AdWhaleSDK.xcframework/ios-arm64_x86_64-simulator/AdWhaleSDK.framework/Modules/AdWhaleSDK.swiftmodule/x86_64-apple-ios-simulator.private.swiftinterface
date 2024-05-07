@@ -177,10 +177,10 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   @objc func bannerViewDidDismissScreen(_ bannerView: AdWhaleSDK.AdWhaleBannerAd)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AdWhaleAppOpenAd : ObjectiveC.NSObject {
+  @objc public var adUnitId: Swift.String?
   weak public var appOpenAdViewDelegate: (any AdWhaleSDK.AdWhaleAppOpenAdViewDelegate)?
   @objc weak public var appOpenAdDelegate: (any AdWhaleSDK.AdWhaleAppOpenAdDelegate)?
   @objc public static let shared: AdWhaleSDK.AdWhaleAppOpenAd
-  @objc public func loadAd(_ adUnitId: Swift.String)
   @objc public func showAdIfAvailable()
   @objc public func showAdIfAvailable(_ viewController: UIKit.UIViewController?)
   @objc deinit
