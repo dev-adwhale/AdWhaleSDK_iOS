@@ -60,11 +60,11 @@ extension AdWhaleSDK.AdWhaleInterstitialAd : GoogleMobileAds.GADFullScreenConten
   @objc dynamic public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
 }
 @objc public protocol AdWhaleInterstitialDelegate {
-  @objc func adDidReceiveAd(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
-  @objc func adDidFailToReceiveAdWithError(_ error: any Swift.Error)
-  @objc func ad(_ ad: AdWhaleSDK.AdWhaleInterstitialAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
-  @objc func adWillPresentFullScreenContent(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
-  @objc func adDidDismissFullScreenContent(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
+  @objc func adDidReceiveInterstitialAd(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
+  @objc func adDidFailToReceiveInterstitialAdWithError(_ error: any Swift.Error)
+  @objc func ad(_ ad: AdWhaleSDK.AdWhaleInterstitialAd, didFailToPresentInterstitialAdWithError error: any Swift.Error)
+  @objc func adWillPresentInterstitialAd(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
+  @objc func adDidDismissInterstitialAd(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
 }
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class AdWhaleNativeAdView : GoogleMobileAds.GADNativeAdView, AdWhaleSDK.AdWhaleRenderable {
   @_Concurrency.MainActor(unsafe) @objc open func adTitleLabel() -> UIKit.UILabel
@@ -181,6 +181,7 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   weak public var appOpenAdViewDelegate: (any AdWhaleSDK.AdWhaleAppOpenAdViewDelegate)?
   @objc weak public var appOpenAdDelegate: (any AdWhaleSDK.AdWhaleAppOpenAdDelegate)?
   @objc public static let shared: AdWhaleSDK.AdWhaleAppOpenAd
+  @objc public func loadAd()
   @objc public func showAdIfAvailable()
   @objc public func showAdIfAvailable(_ viewController: UIKit.UIViewController?)
   @objc deinit
@@ -189,10 +190,11 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   @objc func appOpenAdDidComplete(_ ad: AdWhaleSDK.AdWhaleAppOpenAd)
 }
 @objc public protocol AdWhaleAppOpenAdDelegate {
-  @objc func adDidReceiveAd()
-  @objc func adWillPresentFullScreenContent()
-  @objc func adDidDismissFullScreenContent()
-  @objc func adDidFailToPresentFullScreenContent(error: any Swift.Error)
+  @objc func adDidReceiveAppOpenAd(_ ad: AdWhaleSDK.AdWhaleAppOpenAd)
+  @objc func adDidFailToReceiveAppOpenAd(error: any Swift.Error)
+  @objc func adWillPresentAppOpenAd()
+  @objc func adDidDismissAppOpenAd()
+  @objc func adDidFailToPresentAppOpenAd(error: any Swift.Error)
 }
 extension AdWhaleSDK.AdWhaleAppOpenAd : GoogleMobileAds.GADFullScreenContentDelegate {
   @objc dynamic public func adWillPresentFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)

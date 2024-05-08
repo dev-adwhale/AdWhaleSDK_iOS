@@ -344,6 +344,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAppOp
 + (AdWhaleAppOpenAd * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+- (void)loadAd;
 - (void)showAdIfAvailable;
 - (void)showAdIfAvailable:(UIViewController * _Nullable)viewController;
 @end
@@ -359,10 +360,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAppOp
 
 SWIFT_PROTOCOL("_TtP10AdWhaleSDK24AdWhaleAppOpenAdDelegate_")
 @protocol AdWhaleAppOpenAdDelegate
-- (void)adDidReceiveAd;
-- (void)adWillPresentFullScreenContent;
-- (void)adDidDismissFullScreenContent;
-- (void)adDidFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
+- (void)adDidReceiveAppOpenAd:(AdWhaleAppOpenAd * _Nonnull)ad;
+- (void)adDidFailToReceiveAppOpenAdWithError:(NSError * _Nonnull)error;
+- (void)adWillPresentAppOpenAd;
+- (void)adDidDismissAppOpenAd;
+- (void)adDidFailToPresentAppOpenAdWithError:(NSError * _Nonnull)error;
 @end
 
 
@@ -432,13 +434,13 @@ SWIFT_CLASS("_TtC10AdWhaleSDK21AdWhaleInterstitialAd")
 
 SWIFT_PROTOCOL("_TtP10AdWhaleSDK27AdWhaleInterstitialDelegate_")
 @protocol AdWhaleInterstitialDelegate
-- (void)adDidReceiveAd:(AdWhaleInterstitialAd * _Nonnull)ad;
-- (void)adDidFailToReceiveAdWithError:(NSError * _Nonnull)error;
-- (void)ad:(AdWhaleInterstitialAd * _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
+- (void)adDidReceiveInterstitialAd:(AdWhaleInterstitialAd * _Nonnull)ad;
+- (void)adDidFailToReceiveInterstitialAdWithError:(NSError * _Nonnull)error;
+- (void)ad:(AdWhaleInterstitialAd * _Nonnull)ad didFailToPresentInterstitialAdWithError:(NSError * _Nonnull)error;
 /// Tells the delegate that the ad will present full screen content.
-- (void)adWillPresentFullScreenContent:(AdWhaleInterstitialAd * _Nonnull)ad;
+- (void)adWillPresentInterstitialAd:(AdWhaleInterstitialAd * _Nonnull)ad;
 /// Tells the delegate that the ad dismissed full screen content.
-- (void)adDidDismissFullScreenContent:(AdWhaleInterstitialAd * _Nonnull)ad;
+- (void)adDidDismissInterstitialAd:(AdWhaleInterstitialAd * _Nonnull)ad;
 @end
 
 typedef SWIFT_ENUM(NSInteger, AdWhaleLogLevel, open) {
@@ -945,6 +947,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAppOp
 + (AdWhaleAppOpenAd * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+- (void)loadAd;
 - (void)showAdIfAvailable;
 - (void)showAdIfAvailable:(UIViewController * _Nullable)viewController;
 @end
@@ -960,10 +963,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAppOp
 
 SWIFT_PROTOCOL("_TtP10AdWhaleSDK24AdWhaleAppOpenAdDelegate_")
 @protocol AdWhaleAppOpenAdDelegate
-- (void)adDidReceiveAd;
-- (void)adWillPresentFullScreenContent;
-- (void)adDidDismissFullScreenContent;
-- (void)adDidFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
+- (void)adDidReceiveAppOpenAd:(AdWhaleAppOpenAd * _Nonnull)ad;
+- (void)adDidFailToReceiveAppOpenAdWithError:(NSError * _Nonnull)error;
+- (void)adWillPresentAppOpenAd;
+- (void)adDidDismissAppOpenAd;
+- (void)adDidFailToPresentAppOpenAdWithError:(NSError * _Nonnull)error;
 @end
 
 
@@ -1033,13 +1037,13 @@ SWIFT_CLASS("_TtC10AdWhaleSDK21AdWhaleInterstitialAd")
 
 SWIFT_PROTOCOL("_TtP10AdWhaleSDK27AdWhaleInterstitialDelegate_")
 @protocol AdWhaleInterstitialDelegate
-- (void)adDidReceiveAd:(AdWhaleInterstitialAd * _Nonnull)ad;
-- (void)adDidFailToReceiveAdWithError:(NSError * _Nonnull)error;
-- (void)ad:(AdWhaleInterstitialAd * _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
+- (void)adDidReceiveInterstitialAd:(AdWhaleInterstitialAd * _Nonnull)ad;
+- (void)adDidFailToReceiveInterstitialAdWithError:(NSError * _Nonnull)error;
+- (void)ad:(AdWhaleInterstitialAd * _Nonnull)ad didFailToPresentInterstitialAdWithError:(NSError * _Nonnull)error;
 /// Tells the delegate that the ad will present full screen content.
-- (void)adWillPresentFullScreenContent:(AdWhaleInterstitialAd * _Nonnull)ad;
+- (void)adWillPresentInterstitialAd:(AdWhaleInterstitialAd * _Nonnull)ad;
 /// Tells the delegate that the ad dismissed full screen content.
-- (void)adDidDismissFullScreenContent:(AdWhaleInterstitialAd * _Nonnull)ad;
+- (void)adDidDismissInterstitialAd:(AdWhaleInterstitialAd * _Nonnull)ad;
 @end
 
 typedef SWIFT_ENUM(NSInteger, AdWhaleLogLevel, open) {

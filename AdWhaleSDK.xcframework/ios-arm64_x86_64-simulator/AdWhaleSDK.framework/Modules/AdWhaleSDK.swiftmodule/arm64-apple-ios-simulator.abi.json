@@ -2148,8 +2148,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "adDidReceiveAd",
-            "printedName": "adDidReceiveAd(_:)",
+            "name": "adDidReceiveInterstitialAd",
+            "printedName": "adDidReceiveInterstitialAd(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2164,8 +2164,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleInterstitialDelegate(im)adDidReceiveAd:",
-            "mangledName": "$s10AdWhaleSDK0aB20InterstitialDelegateP012adDidReceiveA0yyAA0abdA0CF",
+            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleInterstitialDelegate(im)adDidReceiveInterstitialAd:",
+            "mangledName": "$s10AdWhaleSDK0aB20InterstitialDelegateP012adDidReceivedA0yyAA0abdA0CF",
             "moduleName": "AdWhaleSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AdWhaleSDK.AdWhaleInterstitialDelegate>",
             "sugared_genericSig": "<Self where Self : AdWhaleSDK.AdWhaleInterstitialDelegate>",
@@ -2178,8 +2178,8 @@
           },
           {
             "kind": "Function",
-            "name": "adDidFailToReceiveAdWithError",
-            "printedName": "adDidFailToReceiveAdWithError(_:)",
+            "name": "adDidFailToReceiveInterstitialAdWithError",
+            "printedName": "adDidFailToReceiveInterstitialAdWithError(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2194,8 +2194,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleInterstitialDelegate(im)adDidFailToReceiveAdWithError:",
-            "mangledName": "$s10AdWhaleSDK0aB20InterstitialDelegateP018adDidFailToReceiveA9WithErroryys0L0_pF",
+            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleInterstitialDelegate(im)adDidFailToReceiveInterstitialAdWithError:",
+            "mangledName": "$s10AdWhaleSDK0aB20InterstitialDelegateP018adDidFailToReceivedA9WithErroryys0L0_pF",
             "moduleName": "AdWhaleSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AdWhaleSDK.AdWhaleInterstitialDelegate>",
             "sugared_genericSig": "<Self where Self : AdWhaleSDK.AdWhaleInterstitialDelegate>",
@@ -2209,7 +2209,7 @@
           {
             "kind": "Function",
             "name": "ad",
-            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
+            "printedName": "ad(_:didFailToPresentInterstitialAdWithError:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2230,8 +2230,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleInterstitialDelegate(im)ad:didFailToPresentFullScreenContentWithError:",
-            "mangledName": "$s10AdWhaleSDK0aB20InterstitialDelegateP2ad_42didFailToPresentFullScreenContentWithErroryAA0abdA0C_s0O0_ptF",
+            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleInterstitialDelegate(im)ad:didFailToPresentInterstitialAdWithError:",
+            "mangledName": "$s10AdWhaleSDK0aB20InterstitialDelegateP2ad_016didFailToPresentdA9WithErroryAA0abdA0C_s0L0_ptF",
             "moduleName": "AdWhaleSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AdWhaleSDK.AdWhaleInterstitialDelegate>",
             "sugared_genericSig": "<Self where Self : AdWhaleSDK.AdWhaleInterstitialDelegate>",
@@ -2244,8 +2244,8 @@
           },
           {
             "kind": "Function",
-            "name": "adWillPresentFullScreenContent",
-            "printedName": "adWillPresentFullScreenContent(_:)",
+            "name": "adWillPresentInterstitialAd",
+            "printedName": "adWillPresentInterstitialAd(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2260,8 +2260,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleInterstitialDelegate(im)adWillPresentFullScreenContent:",
-            "mangledName": "$s10AdWhaleSDK0aB20InterstitialDelegateP30adWillPresentFullScreenContentyyAA0abdA0CF",
+            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleInterstitialDelegate(im)adWillPresentInterstitialAd:",
+            "mangledName": "$s10AdWhaleSDK0aB20InterstitialDelegateP013adWillPresentdA0yyAA0abdA0CF",
             "moduleName": "AdWhaleSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AdWhaleSDK.AdWhaleInterstitialDelegate>",
             "sugared_genericSig": "<Self where Self : AdWhaleSDK.AdWhaleInterstitialDelegate>",
@@ -2275,8 +2275,8 @@
           },
           {
             "kind": "Function",
-            "name": "adDidDismissFullScreenContent",
-            "printedName": "adDidDismissFullScreenContent(_:)",
+            "name": "adDidDismissInterstitialAd",
+            "printedName": "adDidDismissInterstitialAd(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2291,8 +2291,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleInterstitialDelegate(im)adDidDismissFullScreenContent:",
-            "mangledName": "$s10AdWhaleSDK0aB20InterstitialDelegateP29adDidDismissFullScreenContentyyAA0abdA0CF",
+            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleInterstitialDelegate(im)adDidDismissInterstitialAd:",
+            "mangledName": "$s10AdWhaleSDK0aB20InterstitialDelegateP012adDidDismissdA0yyAA0abdA0CF",
             "moduleName": "AdWhaleSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AdWhaleSDK.AdWhaleInterstitialDelegate>",
             "sugared_genericSig": "<Self where Self : AdWhaleSDK.AdWhaleInterstitialDelegate>",
@@ -9742,6 +9742,118 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isShowingFullScreenAd",
+            "printedName": "isShowingFullScreenAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AdWhaleSDK0ab7AppOpenA0C019isShowingFullScreenA0Sbvp",
+            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C019isShowingFullScreenA0Sbvp",
+            "moduleName": "AdWhaleSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AdWhaleSDK0ab7AppOpenA0C019isShowingFullScreenA0Sbvg",
+                "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C019isShowingFullScreenA0Sbvg",
+                "moduleName": "AdWhaleSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AdWhaleSDK0ab7AppOpenA0C019isShowingFullScreenA0Sbvs",
+                "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C019isShowingFullScreenA0Sbvs",
+                "moduleName": "AdWhaleSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AdWhaleSDK0ab7AppOpenA0C019isShowingFullScreenA0SbvM",
+                "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C019isShowingFullScreenA0SbvM",
+                "moduleName": "AdWhaleSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAppOpenAd(im)loadAd",
+            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C04loadA0yyF",
+            "moduleName": "AdWhaleSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Function",
             "name": "showAdIfAvailable",
             "printedName": "showAdIfAvailable()",
@@ -10020,18 +10132,24 @@
         "children": [
           {
             "kind": "Function",
-            "name": "adDidReceiveAd",
-            "printedName": "adDidReceiveAd()",
+            "name": "adDidReceiveAppOpenAd",
+            "printedName": "adDidReceiveAppOpenAd(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleAppOpenAd",
+                "printedName": "AdWhaleSDK.AdWhaleAppOpenAd",
+                "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAppOpenAd"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleAppOpenAdDelegate(im)adDidReceiveAd",
-            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA8DelegateP012adDidReceiveA0yyF",
+            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleAppOpenAdDelegate(im)adDidReceiveAppOpenAd:",
+            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA8DelegateP012adDidReceivedeA0yyAA0abdeA0CF",
             "moduleName": "AdWhaleSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
             "sugared_genericSig": "<Self where Self : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
@@ -10044,56 +10162,8 @@
           },
           {
             "kind": "Function",
-            "name": "adWillPresentFullScreenContent",
-            "printedName": "adWillPresentFullScreenContent()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleAppOpenAdDelegate(im)adWillPresentFullScreenContent",
-            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA8DelegateP30adWillPresentFullScreenContentyyF",
-            "moduleName": "AdWhaleSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
-            "sugared_genericSig": "<Self where Self : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adDidDismissFullScreenContent",
-            "printedName": "adDidDismissFullScreenContent()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleAppOpenAdDelegate(im)adDidDismissFullScreenContent",
-            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA8DelegateP29adDidDismissFullScreenContentyyF",
-            "moduleName": "AdWhaleSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
-            "sugared_genericSig": "<Self where Self : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adDidFailToPresentFullScreenContent",
-            "printedName": "adDidFailToPresentFullScreenContent(error:)",
+            "name": "adDidFailToReceiveAppOpenAd",
+            "printedName": "adDidFailToReceiveAppOpenAd(error:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10108,8 +10178,86 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleAppOpenAdDelegate(im)adDidFailToPresentFullScreenContentWithError:",
-            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA8DelegateP35adDidFailToPresentFullScreenContent5errorys5Error_p_tF",
+            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleAppOpenAdDelegate(im)adDidFailToReceiveAppOpenAdWithError:",
+            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA8DelegateP018adDidFailToReceivedeA05errorys5Error_p_tF",
+            "moduleName": "AdWhaleSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWillPresentAppOpenAd",
+            "printedName": "adWillPresentAppOpenAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleAppOpenAdDelegate(im)adWillPresentAppOpenAd",
+            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA8DelegateP013adWillPresentdeA0yyF",
+            "moduleName": "AdWhaleSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidDismissAppOpenAd",
+            "printedName": "adDidDismissAppOpenAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleAppOpenAdDelegate(im)adDidDismissAppOpenAd",
+            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA8DelegateP012adDidDismissdeA0yyF",
+            "moduleName": "AdWhaleSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidFailToPresentAppOpenAd",
+            "printedName": "adDidFailToPresentAppOpenAd(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(pl)AdWhaleAppOpenAdDelegate(im)adDidFailToPresentAppOpenAdWithError:",
+            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA8DelegateP018adDidFailToPresentdeA05errorys5Error_p_tF",
             "moduleName": "AdWhaleSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
             "sugared_genericSig": "<Self where Self : AdWhaleSDK.AdWhaleAppOpenAdDelegate>",
@@ -13853,6 +14001,20 @@
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
       "offset": 574,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 610,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 694,
       "length": 5,
       "value": "false"
     }
