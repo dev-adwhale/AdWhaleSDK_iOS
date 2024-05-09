@@ -375,6 +375,8 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK28AdWhaleAppOpenAdViewDelegate_")
 
 @class NSCoder;
 @protocol AdWhaleBannerDelegate;
+@class UITouch;
+@class UIEvent;
 @class GADBannerView;
 
 SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleBannerAd")
@@ -387,12 +389,14 @@ SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleBannerAd")
 - (void)setDelegate:(id <AdWhaleBannerDelegate> _Nonnull)delegate;
 - (void)setRootViewController:(UIViewController * _Nonnull)rootViewController;
 - (void)load;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 - (void)bannerViewDidRecordImpression:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerViewWillPresentScreen:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerViewWillDismissScreen:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerViewDidDismissScreen:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerViewDidRecordClick:(GADBannerView * _Nonnull)bannerView;
 @end
 
 
@@ -978,6 +982,8 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK28AdWhaleAppOpenAdViewDelegate_")
 
 @class NSCoder;
 @protocol AdWhaleBannerDelegate;
+@class UITouch;
+@class UIEvent;
 @class GADBannerView;
 
 SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleBannerAd")
@@ -990,12 +996,14 @@ SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleBannerAd")
 - (void)setDelegate:(id <AdWhaleBannerDelegate> _Nonnull)delegate;
 - (void)setRootViewController:(UIViewController * _Nonnull)rootViewController;
 - (void)load;
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 - (void)bannerViewDidRecordImpression:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerViewWillPresentScreen:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerViewWillDismissScreen:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerViewDidDismissScreen:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerViewDidRecordClick:(GADBannerView * _Nonnull)bannerView;
 @end
 
 

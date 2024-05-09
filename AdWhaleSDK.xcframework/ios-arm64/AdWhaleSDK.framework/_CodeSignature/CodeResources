@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/AdWhaleSDK-Swift.h</key>
 		<data>
-		uYv9Kkh01UIFtQKrm1hzCO7SFPY=
+		T1wXxYE2IteEYgfdQmNXuXwYLm8=
 		</data>
 		<key>Headers/AdWhaleSDK.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		5JwJ2Twr24fPfZXm8D1T6NjEZwk=
+		CdEQJRh+yQuoxhLOXa5sVTnlPD0=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		wVyhN6jwVYZDRqWgVWTZ96d8w4Q=
+		J9hyE1GxsMh2JsqsOPw2p1VT3Yk=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		wVyhN6jwVYZDRqWgVWTZ96d8w4Q=
+		J9hyE1GxsMh2JsqsOPw2p1VT3Yk=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gx+ckoILfUv+WfdBhRmVX/OtRmI=
+		hv5hG+czbZjlJee1L+7LC+S+AWs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LlcYmUf3uQ/XUa4cXVM/jsLk0DBC1gP8BErzBWXdHVQ=
+			QW1zt0gXry19koFhrEgyxmvzVIKx8diwoqBnDFvB8LM=
 			</data>
 		</dict>
 		<key>Headers/AdWhaleSDK.h</key>
@@ -103,14 +103,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CwQIB0Xc2pJASjJJC6KIkCCJM8PdOeb1Td5TYtaUY5k=
+			2YBYDu6jqn2teuNKm5razpYicAOOxHtebV/w3m0S3q4=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6RHCJ1HMJO0owUKYnxC3JkP6T6xpSO91gBlWFunfbcQ=
+			KPzKxTj0jMXkeOfsJcYaoYf6TT2DdpTRydkVcHotsjk=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -124,14 +124,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6RHCJ1HMJO0owUKYnxC3JkP6T6xpSO91gBlWFunfbcQ=
+			KPzKxTj0jMXkeOfsJcYaoYf6TT2DdpTRydkVcHotsjk=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lbizoSp6HrZ0LUTINUYs6rt82AhUcA75D0t4ZdQ8NO8=
+			CqTRWrZaswNkIgC+/kDd4K0yNKIFWqXVhcZKzk57pRU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

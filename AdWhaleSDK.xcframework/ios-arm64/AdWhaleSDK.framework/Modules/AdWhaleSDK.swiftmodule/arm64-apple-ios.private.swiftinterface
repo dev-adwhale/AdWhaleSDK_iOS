@@ -160,12 +160,14 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public func setDelegate(_ delegate: any AdWhaleSDK.AdWhaleBannerDelegate)
   @objc @_Concurrency.MainActor(unsafe) public func setRootViewController(_ rootViewController: UIKit.UIViewController)
   @objc @_Concurrency.MainActor(unsafe) public func load()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
   @_Concurrency.MainActor(unsafe) @objc public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
   @_Concurrency.MainActor(unsafe) @objc public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
   @_Concurrency.MainActor(unsafe) @objc public func bannerViewDidRecordImpression(_ bannerView: GoogleMobileAds.GADBannerView)
   @_Concurrency.MainActor(unsafe) @objc public func bannerViewWillPresentScreen(_ bannerView: GoogleMobileAds.GADBannerView)
   @_Concurrency.MainActor(unsafe) @objc public func bannerViewWillDismissScreen(_ bannerView: GoogleMobileAds.GADBannerView)
   @_Concurrency.MainActor(unsafe) @objc public func bannerViewDidDismissScreen(_ bannerView: GoogleMobileAds.GADBannerView)
+  @_Concurrency.MainActor(unsafe) @objc public func bannerViewDidRecordClick(_ bannerView: GoogleMobileAds.GADBannerView)
   @objc deinit
 }
 @objc public protocol AdWhaleBannerDelegate {

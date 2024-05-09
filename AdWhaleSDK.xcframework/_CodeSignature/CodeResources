@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/AdWhaleSDK.framework/AdWhaleSDK</key>
 		<data>
-		FDzf6G3WbjgHJlCxBtvOjN8QSvE=
+		wDY0q2UFcNiTP3o1VWKkbJB1OEY=
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/Headers/AdWhaleSDK-Swift.h</key>
 		<data>
-		uYv9Kkh01UIFtQKrm1hzCO7SFPY=
+		T1wXxYE2IteEYgfdQmNXuXwYLm8=
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/Headers/AdWhaleSDK.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		5JwJ2Twr24fPfZXm8D1T6NjEZwk=
+		CdEQJRh+yQuoxhLOXa5sVTnlPD0=
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		wVyhN6jwVYZDRqWgVWTZ96d8w4Q=
+		J9hyE1GxsMh2JsqsOPw2p1VT3Yk=
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		wVyhN6jwVYZDRqWgVWTZ96d8w4Q=
+		J9hyE1GxsMh2JsqsOPw2p1VT3Yk=
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>ios-arm64/AdWhaleSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		DKOz0ZquhS6xI2I3psQNzW25biI=
+		zJd36CP5J2McIipUKnaLMT68tgY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/AdWhaleSDK</key>
 		<data>
-		+kB9dYieV4hZ8oUdIibLdorzz4w=
+		KcrIkrwsrfIpG+pV7ypTEEXE4ow=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Headers/AdWhaleSDK-Swift.h</key>
 		<data>
-		pyZSbJ+OqkQkmnxzWHeJf5FVv6A=
+		J8MYTruV6qHYvKQ6mz0if/6tGK8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Headers/AdWhaleSDK.h</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		5JwJ2Twr24fPfZXm8D1T6NjEZwk=
+		CdEQJRh+yQuoxhLOXa5sVTnlPD0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6A5FUSE31iSg1BN/qWyGPiPYdzU=
+		0Y74NK+nmRKEWe+6vDCdzxA8/K8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -110,15 +110,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6A5FUSE31iSg1BN/qWyGPiPYdzU=
+		0Y74NK+nmRKEWe+6vDCdzxA8/K8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		5JwJ2Twr24fPfZXm8D1T6NjEZwk=
+		CdEQJRh+yQuoxhLOXa5sVTnlPD0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4iYdquiARmAIm1HS7gpKKR5+e6Q=
+		BXr+rkc0vl52DZSUDiAZni9W68w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4iYdquiARmAIm1HS7gpKKR5+e6Q=
+		BXr+rkc0vl52DZSUDiAZni9W68w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		/JEiW2QBuWtR+9xLUI/iNawvtZg=
+		DgP8dmPWL0FEk8CLriZ9Kk6Lut4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -163,11 +163,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FDzf6G3WbjgHJlCxBtvOjN8QSvE=
+			wDY0q2UFcNiTP3o1VWKkbJB1OEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			8pAtW9wrZpmrHIXgASF9E4vvEpm+y6oMUNSjd9HHZOY=
+			FwgTnLNcl+S8/cGbFbu6oB6yZN1UbPnESC0au6Mw3EU=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
@@ -196,11 +196,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uYv9Kkh01UIFtQKrm1hzCO7SFPY=
+			T1wXxYE2IteEYgfdQmNXuXwYLm8=
 			</data>
 			<key>hash2</key>
 			<data>
-			LlcYmUf3uQ/XUa4cXVM/jsLk0DBC1gP8BErzBWXdHVQ=
+			QW1zt0gXry19koFhrEgyxmvzVIKx8diwoqBnDFvB8LM=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/Headers/AdWhaleSDK.h</key>
@@ -229,22 +229,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5JwJ2Twr24fPfZXm8D1T6NjEZwk=
+			CdEQJRh+yQuoxhLOXa5sVTnlPD0=
 			</data>
 			<key>hash2</key>
 			<data>
-			CwQIB0Xc2pJASjJJC6KIkCCJM8PdOeb1Td5TYtaUY5k=
+			2YBYDu6jqn2teuNKm5razpYicAOOxHtebV/w3m0S3q4=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wVyhN6jwVYZDRqWgVWTZ96d8w4Q=
+			J9hyE1GxsMh2JsqsOPw2p1VT3Yk=
 			</data>
 			<key>hash2</key>
 			<data>
-			6RHCJ1HMJO0owUKYnxC3JkP6T6xpSO91gBlWFunfbcQ=
+			KPzKxTj0jMXkeOfsJcYaoYf6TT2DdpTRydkVcHotsjk=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -262,11 +262,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wVyhN6jwVYZDRqWgVWTZ96d8w4Q=
+			J9hyE1GxsMh2JsqsOPw2p1VT3Yk=
 			</data>
 			<key>hash2</key>
 			<data>
-			6RHCJ1HMJO0owUKYnxC3JkP6T6xpSO91gBlWFunfbcQ=
+			KPzKxTj0jMXkeOfsJcYaoYf6TT2DdpTRydkVcHotsjk=
 			</data>
 		</dict>
 		<key>ios-arm64/AdWhaleSDK.framework/Modules/module.modulemap</key>
@@ -339,22 +339,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DKOz0ZquhS6xI2I3psQNzW25biI=
+			zJd36CP5J2McIipUKnaLMT68tgY=
 			</data>
 			<key>hash2</key>
 			<data>
-			kM2O5Aw1rEdY+T7D+QH8D5BnkqnMkIAIQXChSOqzYkg=
+			XOGtCSce0mpRDklLA5b8bX8hbVOZD14LaKlixWgNDNE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/AdWhaleSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+kB9dYieV4hZ8oUdIibLdorzz4w=
+			KcrIkrwsrfIpG+pV7ypTEEXE4ow=
 			</data>
 			<key>hash2</key>
 			<data>
-			mbx7cuYRV747V6o+TA9BhDw0qGJnEFd7i4/P0mO8zno=
+			5e5zkD8HBSnqiHWm7E6aGiFslZUCH+/u+G/52Iqe3sM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/GoogleMobileAdsResources.bundle/Info.plist</key>
@@ -383,11 +383,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pyZSbJ+OqkQkmnxzWHeJf5FVv6A=
+			J8MYTruV6qHYvKQ6mz0if/6tGK8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZsSDULmYNDs9+xzTa/R2nWwwxg1/rQuPHbZxWFoW0HU=
+			+2kOC8VRbWNAbCAZuS/wnmXPgeqIizl61hQ7mvCrJJo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Headers/AdWhaleSDK.h</key>
@@ -416,22 +416,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5JwJ2Twr24fPfZXm8D1T6NjEZwk=
+			CdEQJRh+yQuoxhLOXa5sVTnlPD0=
 			</data>
 			<key>hash2</key>
 			<data>
-			CwQIB0Xc2pJASjJJC6KIkCCJM8PdOeb1Td5TYtaUY5k=
+			2YBYDu6jqn2teuNKm5razpYicAOOxHtebV/w3m0S3q4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6A5FUSE31iSg1BN/qWyGPiPYdzU=
+			0Y74NK+nmRKEWe+6vDCdzxA8/K8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Urc9s1/s86X/fj8v4iJAV959D/MglfNSlYHEnINwo/Q=
+			ecIQjL8sFtU2SjbgetNKOug39ZU6mydtjN7fDSg7bHg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -449,33 +449,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6A5FUSE31iSg1BN/qWyGPiPYdzU=
+			0Y74NK+nmRKEWe+6vDCdzxA8/K8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Urc9s1/s86X/fj8v4iJAV959D/MglfNSlYHEnINwo/Q=
+			ecIQjL8sFtU2SjbgetNKOug39ZU6mydtjN7fDSg7bHg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5JwJ2Twr24fPfZXm8D1T6NjEZwk=
+			CdEQJRh+yQuoxhLOXa5sVTnlPD0=
 			</data>
 			<key>hash2</key>
 			<data>
-			CwQIB0Xc2pJASjJJC6KIkCCJM8PdOeb1Td5TYtaUY5k=
+			2YBYDu6jqn2teuNKm5razpYicAOOxHtebV/w3m0S3q4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4iYdquiARmAIm1HS7gpKKR5+e6Q=
+			BXr+rkc0vl52DZSUDiAZni9W68w=
 			</data>
 			<key>hash2</key>
 			<data>
-			oN7n8+/PqJy9bwHJ0jeWD7/n9iSkcVw+Cjh04QW8MLc=
+			FUAweQxhiesbAkz8qwmXgbqOfNE0ru3f37Pe865v4gk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -493,11 +493,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4iYdquiARmAIm1HS7gpKKR5+e6Q=
+			BXr+rkc0vl52DZSUDiAZni9W68w=
 			</data>
 			<key>hash2</key>
 			<data>
-			oN7n8+/PqJy9bwHJ0jeWD7/n9iSkcVw+Cjh04QW8MLc=
+			FUAweQxhiesbAkz8qwmXgbqOfNE0ru3f37Pe865v4gk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdWhaleSDK.framework/Modules/module.modulemap</key>
@@ -570,11 +570,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/JEiW2QBuWtR+9xLUI/iNawvtZg=
+			DgP8dmPWL0FEk8CLriZ9Kk6Lut4=
 			</data>
 			<key>hash2</key>
 			<data>
-			LY8LNiR74s/ennu696nxBwZhhZxVUZPuxPqnvfPDS44=
+			mdUeoI6pYPcwUQEEMOiafNAz2rE/3eej2TDDNnXgkOg=
 			</data>
 		</dict>
 	</dict>

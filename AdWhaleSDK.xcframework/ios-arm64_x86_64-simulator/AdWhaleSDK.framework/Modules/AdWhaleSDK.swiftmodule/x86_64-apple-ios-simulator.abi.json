@@ -8845,6 +8845,61 @@
           },
           {
             "kind": "Function",
+            "name": "touchesBegan",
+            "printedName": "touchesBegan(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UITouch>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITouch",
+                    "printedName": "UIKit.UITouch",
+                    "usr": "c:objc(cs)UITouch"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleBannerAd(im)touchesBegan:withEvent:",
+            "mangledName": "$s10AdWhaleSDK0ab6BannerA0C12touchesBegan_4withyShySo7UITouchCG_So7UIEventCSgtF",
+            "moduleName": "AdWhaleSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "touchesBegan:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "bannerViewDidReceiveAd",
             "printedName": "bannerViewDidReceiveAd(_:)",
             "children": [
@@ -9023,6 +9078,36 @@
             "moduleName": "AdWhaleSDK",
             "isOpen": true,
             "objc_name": "bannerViewDidDismissScreen:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidRecordClick",
+            "printedName": "bannerViewDidRecordClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADBannerView",
+                "printedName": "GoogleMobileAds.GADBannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleBannerAd(im)bannerViewDidRecordClick:",
+            "mangledName": "$s10AdWhaleSDK0ab6BannerA0C24bannerViewDidRecordClickyySo09GADBannerF0CF",
+            "moduleName": "AdWhaleSDK",
+            "isOpen": true,
+            "objc_name": "bannerViewDidRecordClick:",
             "declAttributes": [
               "ObjC",
               "Custom",
@@ -9824,6 +9909,96 @@
                 "declKind": "Accessor",
                 "usr": "s:10AdWhaleSDK0ab7AppOpenA0C019isShowingFullScreenA0SbvM",
                 "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C019isShowingFullScreenA0SbvM",
+                "moduleName": "AdWhaleSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAdClick",
+            "printedName": "isAdClick",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AdWhaleSDK0ab7AppOpenA0C02isA5ClickSbvp",
+            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C02isA5ClickSbvp",
+            "moduleName": "AdWhaleSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AdWhaleSDK0ab7AppOpenA0C02isA5ClickSbvg",
+                "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C02isA5ClickSbvg",
+                "moduleName": "AdWhaleSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AdWhaleSDK0ab7AppOpenA0C02isA5ClickSbvs",
+                "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C02isA5ClickSbvs",
+                "moduleName": "AdWhaleSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AdWhaleSDK0ab7AppOpenA0C02isA5ClickSbvM",
+                "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C02isA5ClickSbvM",
                 "moduleName": "AdWhaleSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -14015,6 +14190,13 @@
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
       "offset": 694,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 762,
       "length": 5,
       "value": "false"
     }
