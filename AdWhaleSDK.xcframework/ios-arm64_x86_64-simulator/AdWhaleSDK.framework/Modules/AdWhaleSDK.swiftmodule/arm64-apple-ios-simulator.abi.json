@@ -8845,61 +8845,6 @@
           },
           {
             "kind": "Function",
-            "name": "touchesBegan",
-            "printedName": "touchesBegan(_:with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Set",
-                "printedName": "Swift.Set<UIKit.UITouch>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITouch",
-                    "printedName": "UIKit.UITouch",
-                    "usr": "c:objc(cs)UITouch"
-                  }
-                ],
-                "usr": "s:Sh"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIEvent?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIEvent",
-                    "printedName": "UIKit.UIEvent",
-                    "usr": "c:objc(cs)UIEvent"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleBannerAd(im)touchesBegan:withEvent:",
-            "mangledName": "$s10AdWhaleSDK0ab6BannerA0C12touchesBegan_4withyShySo7UITouchCG_So7UIEventCSgtF",
-            "moduleName": "AdWhaleSDK",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "touchesBegan:withEvent:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "bannerViewDidReceiveAd",
             "printedName": "bannerViewDidReceiveAd(_:)",
             "children": [
@@ -9423,6 +9368,13 @@
         "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdWhaleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UserMessagingPlatform",
+        "printedName": "UserMessagingPlatform",
         "declKind": "Import",
         "moduleName": "AdWhaleSDK"
       },
@@ -10025,6 +9977,27 @@
             "declAttributes": [
               "AccessControl",
               "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearAd",
+            "printedName": "clearAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AdWhaleSDK0ab7AppOpenA0C05clearA0yyF",
+            "mangledName": "$s10AdWhaleSDK0ab7AppOpenA0C05clearA0yyF",
+            "moduleName": "AdWhaleSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -14161,42 +14134,42 @@
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 324,
+      "offset": 353,
       "length": 4,
       "value": "3600"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 331,
+      "offset": 360,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 574,
+      "offset": 603,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 610,
+      "offset": 639,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 694,
+      "offset": 723,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 762,
+      "offset": 791,
       "length": 5,
       "value": "false"
     }

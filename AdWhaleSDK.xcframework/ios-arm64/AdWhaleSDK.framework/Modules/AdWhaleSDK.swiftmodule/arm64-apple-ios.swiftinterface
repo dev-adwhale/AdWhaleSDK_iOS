@@ -160,7 +160,6 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   @objc @_Concurrency.MainActor(unsafe) public func setDelegate(_ delegate: any AdWhaleSDK.AdWhaleBannerDelegate)
   @objc @_Concurrency.MainActor(unsafe) public func setRootViewController(_ rootViewController: UIKit.UIViewController)
   @objc @_Concurrency.MainActor(unsafe) public func load()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
   @_Concurrency.MainActor(unsafe) @objc public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
   @_Concurrency.MainActor(unsafe) @objc public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
   @_Concurrency.MainActor(unsafe) @objc public func bannerViewDidRecordImpression(_ bannerView: GoogleMobileAds.GADBannerView)
@@ -184,6 +183,7 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   @objc weak public var appOpenAdDelegate: (any AdWhaleSDK.AdWhaleAppOpenAdDelegate)?
   @objc public static let shared: AdWhaleSDK.AdWhaleAppOpenAd
   @objc public func loadAd()
+  public func clearAd()
   @objc public func showAdIfAvailable()
   @objc public func showAdIfAvailable(_ viewController: UIKit.UIViewController?)
   @objc deinit
