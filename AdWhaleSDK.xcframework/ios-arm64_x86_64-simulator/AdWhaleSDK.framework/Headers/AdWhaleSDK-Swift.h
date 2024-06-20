@@ -313,7 +313,6 @@ typedef SWIFT_ENUM(NSInteger, AdWhaleAdSize, open) {
 @class NSString;
 @class UIViewController;
 enum AdWhaleLogLevel : NSInteger;
-@class GADRequest;
 
 SWIFT_CLASS("_TtC10AdWhaleSDK10AdWhaleAds")
 @interface AdWhaleAds : NSObject
@@ -321,14 +320,21 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAds *
 + (AdWhaleAds * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+/// Admob initialize
+/// appId: CaulySetting appId
 - (void)initialize:(NSString * _Nonnull)appId completionHandler:(void (^ _Nonnull)(void))completionHandler;
+/// UMP GDPR & Admob initialize
+/// appId: CaulySetting appId
+/// useGdpr: GDPR 사용여부
+/// testDevices: 테스트 디바이스 설정
 - (void)initializeWithAppId:(NSString * _Nonnull)appId rootViewController:(UIViewController * _Nonnull)rootViewController useGdpr:(BOOL)useGdpr testDevices:(NSArray<NSString *> * _Nullable)testDevices completionHandler:(void (^ _Nonnull)(void))completionHandler;
-- (void)gdpr:(UIViewController * _Nonnull)rootViewController testDevices:(NSArray<NSString *> * _Nullable)testDevices completionHandler:(void (^ _Nonnull)(void))completionHandler;
+/// UMP GDPR
+/// testDevices: 테스트 디바이스 설정
+- (void)gdpr:(UIViewController * _Nonnull)rootViewController testDevices:(NSArray<NSString *> * _Nullable)testDevices completionHandler:(void (^ _Nonnull)(BOOL))completionHandler;
 - (void)resetGDPRWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (BOOL)canShowAds SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isGDPR SWIFT_WARN_UNUSED_RESULT;
 - (void)setLogLevelWithLogLevel:(enum AdWhaleLogLevel)logLevel;
-- (GADRequest * _Nullable)AdWhaleRequest SWIFT_WARN_UNUSED_RESULT;
 - (void)setTestDeviceIdentifiersWithTestDeviceIdentifiers:(NSString * _Nonnull)testDeviceIdentifiers;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
@@ -406,12 +412,6 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK21AdWhaleBannerDelegate_")
 - (void)bannerViewWillDismissScreen:(AdWhaleBannerAd * _Nonnull)bannerView;
 - (void)bannerViewDidDismissScreen:(AdWhaleBannerAd * _Nonnull)bannerView;
 @end
-
-typedef SWIFT_ENUM(NSInteger, AdWhaleGdprType, open) {
-  AdWhaleGdprTypePopupLocation = 0,
-  AdWhaleGdprTypePopupDebug = 1,
-  AdWhaleGdprTypeDirectNotRequired = 2,
-};
 
 @protocol AdWhaleInterstitialDelegate;
 
@@ -917,7 +917,6 @@ typedef SWIFT_ENUM(NSInteger, AdWhaleAdSize, open) {
 @class NSString;
 @class UIViewController;
 enum AdWhaleLogLevel : NSInteger;
-@class GADRequest;
 
 SWIFT_CLASS("_TtC10AdWhaleSDK10AdWhaleAds")
 @interface AdWhaleAds : NSObject
@@ -925,14 +924,21 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAds *
 + (AdWhaleAds * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+/// Admob initialize
+/// appId: CaulySetting appId
 - (void)initialize:(NSString * _Nonnull)appId completionHandler:(void (^ _Nonnull)(void))completionHandler;
+/// UMP GDPR & Admob initialize
+/// appId: CaulySetting appId
+/// useGdpr: GDPR 사용여부
+/// testDevices: 테스트 디바이스 설정
 - (void)initializeWithAppId:(NSString * _Nonnull)appId rootViewController:(UIViewController * _Nonnull)rootViewController useGdpr:(BOOL)useGdpr testDevices:(NSArray<NSString *> * _Nullable)testDevices completionHandler:(void (^ _Nonnull)(void))completionHandler;
-- (void)gdpr:(UIViewController * _Nonnull)rootViewController testDevices:(NSArray<NSString *> * _Nullable)testDevices completionHandler:(void (^ _Nonnull)(void))completionHandler;
+/// UMP GDPR
+/// testDevices: 테스트 디바이스 설정
+- (void)gdpr:(UIViewController * _Nonnull)rootViewController testDevices:(NSArray<NSString *> * _Nullable)testDevices completionHandler:(void (^ _Nonnull)(BOOL))completionHandler;
 - (void)resetGDPRWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (BOOL)canShowAds SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isGDPR SWIFT_WARN_UNUSED_RESULT;
 - (void)setLogLevelWithLogLevel:(enum AdWhaleLogLevel)logLevel;
-- (GADRequest * _Nullable)AdWhaleRequest SWIFT_WARN_UNUSED_RESULT;
 - (void)setTestDeviceIdentifiersWithTestDeviceIdentifiers:(NSString * _Nonnull)testDeviceIdentifiers;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
@@ -1010,12 +1016,6 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK21AdWhaleBannerDelegate_")
 - (void)bannerViewWillDismissScreen:(AdWhaleBannerAd * _Nonnull)bannerView;
 - (void)bannerViewDidDismissScreen:(AdWhaleBannerAd * _Nonnull)bannerView;
 @end
-
-typedef SWIFT_ENUM(NSInteger, AdWhaleGdprType, open) {
-  AdWhaleGdprTypePopupLocation = 0,
-  AdWhaleGdprTypePopupDebug = 1,
-  AdWhaleGdprTypeDirectNotRequired = 2,
-};
 
 @protocol AdWhaleInterstitialDelegate;
 

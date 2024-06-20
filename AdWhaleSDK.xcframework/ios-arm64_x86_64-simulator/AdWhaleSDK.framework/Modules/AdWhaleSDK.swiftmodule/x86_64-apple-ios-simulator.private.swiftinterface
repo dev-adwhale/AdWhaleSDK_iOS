@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 effective-4.1.50 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -Onone -module-name AdWhaleSDK
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name AdWhaleSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AdWhaleSDK
 import AppTrackingTransparency
@@ -18,12 +18,11 @@ import _SwiftConcurrencyShims
   @objc public static let sharedInstance: AdWhaleSDK.AdWhaleAds
   @objc public func initialize(_ appId: Swift.String = "0", completionHandler: @escaping () -> Swift.Void)
   @objc public func initialize(appId: Swift.String = "0", rootViewController: UIKit.UIViewController, useGdpr: Swift.Bool, testDevices: [Swift.String]?, completionHandler: @escaping () -> Swift.Void)
-  @objc public func gdpr(_ rootViewController: UIKit.UIViewController, testDevices: [Swift.String]?, completionHandler: @escaping () -> Swift.Void)
+  @objc public func gdpr(_ rootViewController: UIKit.UIViewController, testDevices: [Swift.String]?, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
   @objc public func resetGDPR(completionHandler: @escaping () -> Swift.Void)
   @objc public func canShowAds() -> Swift.Bool
   @objc public func isGDPR() -> Swift.Bool
   @objc public func setLogLevel(logLevel: AdWhaleSDK.AdWhaleLogLevel)
-  @objc public func AdWhaleRequest() -> GoogleMobileAds.GADRequest?
   @objc public func setTestDeviceIdentifiers(testDeviceIdentifiers: Swift.String)
   @objc public func showAdInspector(viewController: UIKit.UIViewController)
   @objc public func showAdInspector(viewController: UIKit.UIViewController, completion: @escaping (Swift.Optional<(any Swift.Error)>) -> ())
@@ -97,16 +96,6 @@ extension AdWhaleSDK.AdWhaleInterstitialAd : GoogleMobileAds.GADFullScreenConten
 }
 public let ADWHALE_SDK_VERSION: Swift.String
 public let ADWHALE_ADAPTER_VERSION: Swift.String
-@objc public enum AdWhaleGdprType : Swift.Int {
-  case popupLocation = 0
-  case popupDebug
-  case directNotRequired
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
 @objc public enum AdWhaleAdSize : Swift.Int {
   case banner = 0
   case largeBanner
@@ -114,9 +103,6 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   case fullBanner
   case leaderboard
   public var size: CoreFoundation.CGSize {
-    get
-  }
-  public var printSize: Swift.String {
     get
   }
   public init?(rawValue: Swift.Int)
@@ -246,9 +232,6 @@ extension AdWhaleSDK.AdWhaleNativeAdLoader : GoogleMobileAds.GADNativeAdLoaderDe
   @objc func nativeAdLoaderDidReceiveAd(_ nativeAd: AdWhaleSDK.AdWhaleNativeAd)
   @objc func nativeAdLoaderDidFailToReceiveAd(_ nativeAd: AdWhaleSDK.AdWhaleNativeAdLoader, error: any Swift.Error)
 }
-extension AdWhaleSDK.AdWhaleGdprType : Swift.Equatable {}
-extension AdWhaleSDK.AdWhaleGdprType : Swift.Hashable {}
-extension AdWhaleSDK.AdWhaleGdprType : Swift.RawRepresentable {}
 extension AdWhaleSDK.AdWhaleAdSize : Swift.Equatable {}
 extension AdWhaleSDK.AdWhaleAdSize : Swift.Hashable {}
 extension AdWhaleSDK.AdWhaleAdSize : Swift.RawRepresentable {}
