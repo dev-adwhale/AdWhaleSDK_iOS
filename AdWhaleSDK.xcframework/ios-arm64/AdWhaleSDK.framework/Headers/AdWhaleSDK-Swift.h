@@ -559,9 +559,12 @@ typedef SWIFT_ENUM(NSInteger, AdWhaleNativeAspectRatio, open) {
 };
 
 
+@class NSDecimalNumber;
 
 SWIFT_CLASS("_TtC10AdWhaleSDK13AdWhaleReward")
 @interface AdWhaleReward : NSObject
+@property (nonatomic, copy) NSString * _Nonnull type;
+@property (nonatomic, strong) NSDecimalNumber * _Nonnull amount;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end

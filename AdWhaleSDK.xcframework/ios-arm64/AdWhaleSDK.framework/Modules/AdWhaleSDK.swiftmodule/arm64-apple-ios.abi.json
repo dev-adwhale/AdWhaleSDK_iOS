@@ -2512,12 +2512,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10AdWhaleSDK0aB6RewardC4typeSSvp",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleReward(py)type",
             "mangledName": "$s10AdWhaleSDK0aB6RewardC4typeSSvp",
             "moduleName": "AdWhaleSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2534,10 +2535,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10AdWhaleSDK0aB6RewardC4typeSSvg",
+                "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleReward(im)type",
                 "mangledName": "$s10AdWhaleSDK0aB6RewardC4typeSSvg",
                 "moduleName": "AdWhaleSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -2558,10 +2562,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10AdWhaleSDK0aB6RewardC4typeSSvs",
+                "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleReward(im)setType:",
                 "mangledName": "$s10AdWhaleSDK0aB6RewardC4typeSSvs",
                 "moduleName": "AdWhaleSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -2597,12 +2604,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10AdWhaleSDK0aB6RewardC6amountSo15NSDecimalNumberCvp",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleReward(py)amount",
             "mangledName": "$s10AdWhaleSDK0aB6RewardC6amountSo15NSDecimalNumberCvp",
             "moduleName": "AdWhaleSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2619,10 +2627,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10AdWhaleSDK0aB6RewardC6amountSo15NSDecimalNumberCvg",
+                "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleReward(im)amount",
                 "mangledName": "$s10AdWhaleSDK0aB6RewardC6amountSo15NSDecimalNumberCvg",
                 "moduleName": "AdWhaleSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -2643,10 +2654,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10AdWhaleSDK0aB6RewardC6amountSo15NSDecimalNumberCvs",
+                "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleReward(im)setAmount:",
                 "mangledName": "$s10AdWhaleSDK0aB6RewardC6amountSo15NSDecimalNumberCvs",
                 "moduleName": "AdWhaleSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {

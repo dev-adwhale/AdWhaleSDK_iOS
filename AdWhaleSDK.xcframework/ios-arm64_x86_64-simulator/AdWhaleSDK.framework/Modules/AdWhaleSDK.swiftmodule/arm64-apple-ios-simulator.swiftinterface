@@ -90,8 +90,8 @@ extension AdWhaleSDK.AdWhaleInterstitialAd : GoogleMobileAds.GADFullScreenConten
   @objc func adMediaView() -> AdWhaleSDK.AdWhaleMediaView
 }
 @objc @_hasMissingDesignatedInitializers public class AdWhaleReward : ObjectiveC.NSObject {
-  public var type: Swift.String
-  public var amount: Foundation.NSDecimalNumber
+  @objc public var type: Swift.String
+  @objc public var amount: Foundation.NSDecimalNumber
   @objc deinit
 }
 public let ADWHALE_SDK_VERSION: Swift.String
