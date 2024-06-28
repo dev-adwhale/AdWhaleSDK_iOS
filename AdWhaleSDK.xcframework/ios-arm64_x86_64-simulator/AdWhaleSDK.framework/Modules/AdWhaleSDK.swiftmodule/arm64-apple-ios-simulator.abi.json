@@ -290,6 +290,90 @@
           },
           {
             "kind": "Function",
+            "name": "tagForChildDirectedTreatment",
+            "printedName": "tagForChildDirectedTreatment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)tagForChildDirectedTreatment:",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC28tagForChildDirectedTreatmentyySo8NSNumberCF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tagForUnderAgeOfConsent",
+            "printedName": "tagForUnderAgeOfConsent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)tagForUnderAgeOfConsent:",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC23tagForUnderAgeOfConsentyySo8NSNumberCF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "maxAdContentRating",
+            "printedName": "maxAdContentRating(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleMaxAdContentRating",
+                "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating",
+                "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)maxAdContentRating:",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC03maxA13ContentRatingyyAA0ab3MaxafG0OF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "resetGDPR",
             "printedName": "resetGDPR(completionHandler:)",
             "children": [
@@ -2879,6 +2963,297 @@
             "moduleName": "AdWhaleSDK",
             "implicit": true,
             "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdWhaleMaxAdContentRating",
+        "printedName": "AdWhaleMaxAdContentRating",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "general",
+            "printedName": "general",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdWhaleSDK.AdWhaleMaxAdContentRating.Type) -> AdWhaleSDK.AdWhaleMaxAdContentRating",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdWhaleMaxAdContentRating",
+                    "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating",
+                    "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdWhaleMaxAdContentRating",
+                        "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating",
+                        "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating@AdWhaleMaxAdContentRatingGeneral",
+            "mangledName": "$s10AdWhaleSDK0ab3MaxA13ContentRatingO7generalyA2CmF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "parentalGuidance",
+            "printedName": "parentalGuidance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdWhaleSDK.AdWhaleMaxAdContentRating.Type) -> AdWhaleSDK.AdWhaleMaxAdContentRating",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdWhaleMaxAdContentRating",
+                    "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating",
+                    "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdWhaleMaxAdContentRating",
+                        "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating",
+                        "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating@AdWhaleMaxAdContentRatingParentalGuidance",
+            "mangledName": "$s10AdWhaleSDK0ab3MaxA13ContentRatingO16parentalGuidanceyA2CmF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "teen",
+            "printedName": "teen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdWhaleSDK.AdWhaleMaxAdContentRating.Type) -> AdWhaleSDK.AdWhaleMaxAdContentRating",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdWhaleMaxAdContentRating",
+                    "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating",
+                    "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdWhaleMaxAdContentRating",
+                        "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating",
+                        "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating@AdWhaleMaxAdContentRatingTeen",
+            "mangledName": "$s10AdWhaleSDK0ab3MaxA13ContentRatingO4teenyA2CmF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "matureAudience",
+            "printedName": "matureAudience",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdWhaleSDK.AdWhaleMaxAdContentRating.Type) -> AdWhaleSDK.AdWhaleMaxAdContentRating",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdWhaleMaxAdContentRating",
+                    "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating",
+                    "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdWhaleMaxAdContentRating",
+                        "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating",
+                        "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating@AdWhaleMaxAdContentRatingMatureAudience",
+            "mangledName": "$s10AdWhaleSDK0ab3MaxA13ContentRatingO14matureAudienceyA2CmF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdWhaleMaxAdContentRating",
+                    "printedName": "AdWhaleSDK.AdWhaleMaxAdContentRating",
+                    "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10AdWhaleSDK0ab3MaxA13ContentRatingO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10AdWhaleSDK0ab3MaxA13ContentRatingO8rawValueACSgSi_tcfc",
+            "moduleName": "AdWhaleSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AdWhaleSDK0ab3MaxA13ContentRatingO8rawValueSivp",
+            "mangledName": "$s10AdWhaleSDK0ab3MaxA13ContentRatingO8rawValueSivp",
+            "moduleName": "AdWhaleSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AdWhaleSDK0ab3MaxA13ContentRatingO8rawValueSivg",
+                "mangledName": "$s10AdWhaleSDK0ab3MaxA13ContentRatingO8rawValueSivg",
+                "moduleName": "AdWhaleSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@AdWhaleSDK@E@AdWhaleMaxAdContentRating",
+        "mangledName": "$s10AdWhaleSDK0ab3MaxA13ContentRatingO",
+        "moduleName": "AdWhaleSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
           }
         ]
       },
@@ -7710,42 +8085,21 @@
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 8284,
+      "offset": 9055,
       "length": 16,
       "value": "\"GDPR Test mode\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "BooleanLiteral",
-      "offset": 11315,
+      "offset": 12086,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "BooleanLiteral",
-      "offset": 11559,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11755,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11951,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12160,
+      "offset": 12330,
       "length": 5,
       "value": "false"
     },
@@ -7753,230 +8107,251 @@
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "BooleanLiteral",
       "offset": 12526,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13094,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "StringLiteral",
-      "offset": 13101,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14163,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "StringLiteral",
-      "offset": 14294,
-      "length": 24,
-      "value": "\"IABTCF_PurposeConsents\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "StringLiteral",
-      "offset": 14323,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "StringLiteral",
-      "offset": 14378,
-      "length": 23,
-      "value": "\"IABTCF_VendorConsents\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "StringLiteral",
-      "offset": 14406,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "StringLiteral",
-      "offset": 14456,
-      "length": 34,
-      "value": "\"IABTCF_VendorLegitimateInterests\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "StringLiteral",
-      "offset": 14495,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "StringLiteral",
-      "offset": 14546,
-      "length": 35,
-      "value": "\"IABTCF_PurposeLegitimateInterests\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "StringLiteral",
-      "offset": 14586,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14621,
-      "length": 3,
-      "value": "755"
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "Array",
-      "offset": 14899,
-      "length": 3,
-      "value": "[1]"
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "Array",
-      "offset": 14989,
-      "length": 13,
-      "value": "[2, 7, 9, 10]"
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "StringLiteral",
-      "offset": 15249,
-      "length": 20,
-      "value": "\"IABTCF_gdprApplies\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "StringLiteral",
-      "offset": 15274,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "StringLiteral",
-      "offset": 15300,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15581,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "BooleanLiteral",
-      "offset": 15719,
+      "offset": 12722,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12931,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13297,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13865,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 13872,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14934,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 16156,
+      "offset": 15065,
       "length": 24,
       "value": "\"IABTCF_PurposeConsents\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 16185,
+      "offset": 15094,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 16240,
+      "offset": 15149,
       "length": 23,
       "value": "\"IABTCF_VendorConsents\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 16268,
+      "offset": 15177,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 16318,
+      "offset": 15227,
       "length": 34,
       "value": "\"IABTCF_VendorLegitimateInterests\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 16357,
+      "offset": 15266,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 16408,
+      "offset": 15317,
       "length": 35,
       "value": "\"IABTCF_PurposeLegitimateInterests\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 16448,
+      "offset": 15357,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "IntegerLiteral",
-      "offset": 16483,
+      "offset": 15392,
       "length": 3,
       "value": "755"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "Array",
-      "offset": 16693,
-      "length": 9,
-      "value": "[1, 3, 4]"
+      "offset": 15670,
+      "length": 3,
+      "value": "[1]"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "Array",
-      "offset": 16793,
+      "offset": 15760,
       "length": 13,
       "value": "[2, 7, 9, 10]"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 17863,
+      "offset": 16020,
+      "length": 20,
+      "value": "\"IABTCF_gdprApplies\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 16045,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 16071,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16352,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16490,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 16927,
+      "length": 24,
+      "value": "\"IABTCF_PurposeConsents\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 16956,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 17011,
+      "length": 23,
+      "value": "\"IABTCF_VendorConsents\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 17039,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 17089,
+      "length": 34,
+      "value": "\"IABTCF_VendorLegitimateInterests\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 17128,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 17179,
+      "length": 35,
+      "value": "\"IABTCF_PurposeLegitimateInterests\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 17219,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17254,
+      "length": 3,
+      "value": "755"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "Array",
+      "offset": 17464,
+      "length": 9,
+      "value": "[1, 3, 4]"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "Array",
+      "offset": 17564,
+      "length": 13,
+      "value": "[2, 7, 9, 10]"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 18634,
       "length": 34,
       "value": "\"error: \""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 17896,
+      "offset": 18667,
       "length": 2,
       "value": "\"\""
     },
@@ -8606,420 +8981,476 @@
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 421,
+      "offset": 427,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 449,
+      "offset": 438,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
+      "kind": "IntegerLiteral",
+      "offset": 464,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
+      "kind": "IntegerLiteral",
+      "offset": 478,
+      "length": 14,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
+      "kind": "IntegerLiteral",
+      "offset": 427,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
+      "kind": "IntegerLiteral",
+      "offset": 464,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
+      "kind": "IntegerLiteral",
+      "offset": 478,
+      "length": 14,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
+      "kind": "IntegerLiteral",
+      "offset": 996,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1024,
       "length": 11,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 483,
+      "offset": 1058,
       "length": 15,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 521,
+      "offset": 1096,
       "length": 10,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 558,
+      "offset": 1133,
       "length": 11,
       "value": "4"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 698,
+      "offset": 1273,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 1286,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 788,
+      "offset": 1363,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 801,
+      "offset": 1376,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 883,
+      "offset": 1458,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 896,
+      "offset": 1471,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 973,
+      "offset": 1548,
       "length": 3,
       "value": "468"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 986,
+      "offset": 1561,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1063,
+      "offset": 1638,
       "length": 3,
       "value": "728"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1076,
+      "offset": 1651,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
-      "offset": 1192,
+      "offset": 1767,
       "length": 15,
       "value": "\"BANNER_320x50\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
-      "offset": 1267,
+      "offset": 1842,
       "length": 22,
       "value": "\"LARGE_BANNER_320x100\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
-      "offset": 1353,
+      "offset": 1928,
       "length": 26,
       "value": "\"MEDIUM_RECTANGLE_300x250\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
-      "offset": 1438,
+      "offset": 2013,
       "length": 20,
       "value": "\"FULL_BANNER_468x60\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
-      "offset": 1518,
+      "offset": 2093,
       "length": 22,
       "value": "\"LEARDER_BOARD_728x90\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 421,
+      "offset": 996,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 449,
+      "offset": 1024,
       "length": 11,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 483,
+      "offset": 1058,
       "length": 15,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 521,
+      "offset": 1096,
       "length": 10,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 558,
+      "offset": 1133,
       "length": 11,
       "value": "4"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1654,
+      "offset": 2229,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1665,
+      "offset": 2240,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1681,
+      "offset": 2256,
       "length": 8,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1699,
+      "offset": 2274,
       "length": 3,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
-      "offset": 1810,
+      "offset": 2385,
       "length": 11,
       "value": "\"LANDSCAPE\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
-      "offset": 1876,
+      "offset": 2451,
       "length": 8,
       "value": "\"SQUARE\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
-      "offset": 1941,
+      "offset": 2516,
       "length": 10,
       "value": "\"PORTRAIT\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
-      "offset": 2003,
+      "offset": 2578,
       "length": 5,
       "value": "\"ANY\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1654,
+      "offset": 2229,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1665,
+      "offset": 2240,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1681,
+      "offset": 2256,
       "length": 8,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1699,
+      "offset": 2274,
       "length": 3,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2270,
+      "offset": 2845,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2281,
+      "offset": 2856,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2297,
+      "offset": 2872,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2311,
+      "offset": 2886,
       "length": 5,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2270,
+      "offset": 2845,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2281,
+      "offset": 2856,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2297,
+      "offset": 2872,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2311,
+      "offset": 2886,
       "length": 5,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2906,
+      "offset": 3481,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2919,
+      "offset": 3494,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2984,
+      "offset": 3559,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2997,
+      "offset": 3572,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 3067,
+      "offset": 3642,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 3080,
+      "offset": 3655,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 3145,
+      "offset": 3720,
       "length": 3,
       "value": "468"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 3158,
+      "offset": 3733,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 3223,
+      "offset": 3798,
       "length": 3,
       "value": "728"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 3236,
+      "offset": 3811,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 3354,
+      "offset": 3929,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 3410,
+      "offset": 3985,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 3472,
+      "offset": 4047,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 3539,
+      "offset": 4114,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-ios-sdk\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 3598,
+      "offset": 4173,
       "length": 2,
       "value": "90"
     },

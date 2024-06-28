@@ -312,6 +312,8 @@ typedef SWIFT_ENUM(NSInteger, AdWhaleAdSize, open) {
 
 @class NSString;
 @class UIViewController;
+@class NSNumber;
+enum AdWhaleMaxAdContentRating : NSInteger;
 enum AdWhaleLogLevel : NSInteger;
 
 SWIFT_CLASS("_TtC10AdWhaleSDK10AdWhaleAds")
@@ -331,6 +333,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAds *
 /// UMP GDPR
 /// testDevices: 테스트 디바이스 설정
 - (void)gdpr:(UIViewController * _Nonnull)rootViewController testDevices:(NSArray<NSString *> * _Nullable)testDevices completionHandler:(void (^ _Nonnull)(BOOL))completionHandler;
+- (void)tagForChildDirectedTreatment:(NSNumber * _Nonnull)tagForChildDirectedTreatment;
+- (void)tagForUnderAgeOfConsent:(NSNumber * _Nonnull)tagForUnderAgeOfConsent;
+- (void)maxAdContentRating:(enum AdWhaleMaxAdContentRating)maxAdContentRating;
 - (void)resetGDPRWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (BOOL)canShowAds SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isGDPR SWIFT_WARN_UNUSED_RESULT;
@@ -449,6 +454,13 @@ typedef SWIFT_ENUM(NSInteger, AdWhaleLogLevel, open) {
   AdWhaleLogLevelNotice = 1,
   AdWhaleLogLevelInfo = 2,
   AdWhaleLogLevelDebug = 3,
+};
+
+typedef SWIFT_ENUM(NSInteger, AdWhaleMaxAdContentRating, open) {
+  AdWhaleMaxAdContentRatingGeneral = 0,
+  AdWhaleMaxAdContentRatingParentalGuidance = 1,
+  AdWhaleMaxAdContentRatingTeen = 2,
+  AdWhaleMaxAdContentRatingMatureAudience = 3,
 };
 
 

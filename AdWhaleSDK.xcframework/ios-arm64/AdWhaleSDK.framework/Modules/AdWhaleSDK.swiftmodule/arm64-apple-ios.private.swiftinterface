@@ -19,6 +19,9 @@ import _SwiftConcurrencyShims
   @objc public func initialize(_ appId: Swift.String = "0", completionHandler: @escaping () -> Swift.Void)
   @objc public func initialize(appId: Swift.String = "0", rootViewController: UIKit.UIViewController, useGdpr: Swift.Bool, testDevices: [Swift.String]?, completionHandler: @escaping () -> Swift.Void)
   @objc public func gdpr(_ rootViewController: UIKit.UIViewController, testDevices: [Swift.String]?, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func tagForChildDirectedTreatment(_ tagForChildDirectedTreatment: Foundation.NSNumber)
+  @objc public func tagForUnderAgeOfConsent(_ tagForUnderAgeOfConsent: Foundation.NSNumber)
+  @objc public func maxAdContentRating(_ maxAdContentRating: AdWhaleSDK.AdWhaleMaxAdContentRating)
   @objc public func resetGDPR(completionHandler: @escaping () -> Swift.Void)
   @objc public func canShowAds() -> Swift.Bool
   @objc public func isGDPR() -> Swift.Bool
@@ -96,6 +99,17 @@ extension AdWhaleSDK.AdWhaleInterstitialAd : GoogleMobileAds.GADFullScreenConten
 }
 public let ADWHALE_SDK_VERSION: Swift.String
 public let ADWHALE_ADAPTER_VERSION: Swift.String
+@objc public enum AdWhaleMaxAdContentRating : Swift.Int {
+  case general = 0
+  case parentalGuidance
+  case teen
+  case matureAudience
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @objc public enum AdWhaleAdSize : Swift.Int {
   case banner = 0
   case largeBanner
@@ -232,6 +246,9 @@ extension AdWhaleSDK.AdWhaleNativeAdLoader : GoogleMobileAds.GADNativeAdLoaderDe
   @objc func nativeAdLoaderDidReceiveAd(_ nativeAd: AdWhaleSDK.AdWhaleNativeAd)
   @objc func nativeAdLoaderDidFailToReceiveAd(_ nativeAd: AdWhaleSDK.AdWhaleNativeAdLoader, error: any Swift.Error)
 }
+extension AdWhaleSDK.AdWhaleMaxAdContentRating : Swift.Equatable {}
+extension AdWhaleSDK.AdWhaleMaxAdContentRating : Swift.Hashable {}
+extension AdWhaleSDK.AdWhaleMaxAdContentRating : Swift.RawRepresentable {}
 extension AdWhaleSDK.AdWhaleAdSize : Swift.Equatable {}
 extension AdWhaleSDK.AdWhaleAdSize : Swift.Hashable {}
 extension AdWhaleSDK.AdWhaleAdSize : Swift.RawRepresentable {}
