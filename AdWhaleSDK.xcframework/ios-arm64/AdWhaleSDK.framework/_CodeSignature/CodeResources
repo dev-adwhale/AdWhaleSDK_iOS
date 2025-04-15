@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		utjdxlX0FBUK1hY1qaa78N7Y88w=
+		pWRMoPvRQ8lAM+q0ptWOWm0aYqs=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/AdWhaleSDK-Swift.h</key>
 		<data>
-		JiB+H+gsxzaFwDSdh+egiv1h5mo=
+		54W6vBqVS7fE8Q0R5yq23uCco8A=
 		</data>
 		<key>Headers/AdWhaleSDK.h</key>
 		<data>
@@ -22,27 +22,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dOPOIZwxZQDpgpJ2/uc1s1zOF1k=
+		2cK6edoaFYP+xUbrqjpIslFCHsw=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		5LF/1k8FrnuBJjNo16wJBqBN/TM=
+		VWyB/wCiAJBzpcfq64cwLQsMajU=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		2hKNVSmJ37b3A7KGNbo1pNsIsLM=
+		8/0Nve32NlY0vMpYgtDSfL9UDho=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		HXecaXfLn0pfni60AdsB5UaTMyQ=
+		+qIAD/3kvGNcy1CaOMJivvakF+4=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		2hKNVSmJ37b3A7KGNbo1pNsIsLM=
+		8/0Nve32NlY0vMpYgtDSfL9UDho=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OtQl0pcssOuQkBL+oVj12AwCwnA=
+		XHq9mWLCtkJtHINci6KPdxJXjJU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>UnityAds.bundle/Info.plist</key>
 		<data>
-		jJd6FJntXKh1nN83YlV5nzbQ+Xw=
+		jo3FZTxGWdECYRoqqnyP7lWn4r8=
 		</data>
 		<key>UnityAds.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		gmSxJdYHuZO03H77OoT6i8SCvLU=
+		WGOESr+k/hQI8L1JiPKqmjVv2Fk=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Glgu4wlIA7MlxQr5uMPH1ECSwb38D6BDW6cj/am+5Ck=
+			kCKFRDRy5wZC4iEDu/D+zy3O4qX/JEP/7fSxsb2hL2I=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fxo/9gDrSzPAhRqPb1OmXpo+Qb2qtk3novSn/g7+Jjo=
+			PJ6LbQIHw0PoT4OU+E5IsCgHVFnJekV2m2nwQRB8vyc=
 			</data>
 		</dict>
 		<key>Headers/AdWhaleSDK.h</key>
@@ -103,35 +103,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l2ju+a3A5wFLU+ONlDMSouOZiez/BLZRROkDgJ4CRmo=
+			ESBFiYM9oy2mTwuxrkCc0pW7ceFC1F96CkLzMvrBCeo=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fgzo4gcoW8f+Shgx/jlnQ145i9850v+0s+ir6224IK4=
+			xMj9sqoKm/6REvvwPaQBAv+k4wVZB70Td+UunrCsTaA=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ZDA6A1whQW+i6Ts/6loBNC8KvNUfL/jEFvbopxHmR4=
+			6Zqc8cuvy3Dk01b9N4En7AxA0hDTlBHUBTel4VzjGuI=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fgzo4gcoW8f+Shgx/jlnQ145i9850v+0s+ir6224IK4=
+			xMj9sqoKm/6REvvwPaQBAv+k4wVZB70Td+UunrCsTaA=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CU/x5m2F5LzCexvDLXmfSF7MSvmssNDRKuVnaICoKY0=
+			wUf5G/4VEG+zd8df1YO6BCGtc9tZ4LzPAZu7uwG9ih8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XgZE7ivkmU/PneZZffsYeWBixxPuvvOIlX2dJcT/hms=
+			95ZgniSgU+jkzynt6EIPdePMo83WEf3sMN4YEwt2E+8=
 			</data>
 		</dict>
 		<key>UnityAds.bundle/PrivacyInfo.xcprivacy</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mftKPTDh0HK4chIldsBPjgghujMAZV/v0EgzqN88yDE=
+			nqbx17lQZLuUGL/nNo/8oiDTUYw9TbBCtOhUZp/4ORM=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
