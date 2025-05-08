@@ -152,6 +152,7 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   }
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AdWhaleBannerAd : UIKit.UIView, GoogleMobileAds.GADBannerViewDelegate {
+  @objc @_Concurrency.MainActor @preconcurrency public init(_ adUnitId: Swift.String, adSize: AdWhaleSDK.AdWhaleAdSize, rootViewController: UIKit.UIViewController)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @objc @_Concurrency.MainActor @preconcurrency public init(_ adSize: AdWhaleSDK.AdWhaleAdSize)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)

@@ -394,6 +394,7 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK28AdWhaleAppOpenAdViewDelegate_")
 
 SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleBannerAd")
 @interface AdWhaleBannerAd : UIView <GADBannerViewDelegate>
+- (nonnull instancetype)init:(NSString * _Nonnull)adUnitId adSize:(enum AdWhaleAdSize)adSize rootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init:(enum AdWhaleAdSize)adSize OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -1019,6 +1020,7 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK28AdWhaleAppOpenAdViewDelegate_")
 
 SWIFT_CLASS("_TtC10AdWhaleSDK15AdWhaleBannerAd")
 @interface AdWhaleBannerAd : UIView <GADBannerViewDelegate>
+- (nonnull instancetype)init:(NSString * _Nonnull)adUnitId adSize:(enum AdWhaleAdSize)adSize rootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init:(enum AdWhaleAdSize)adSize OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

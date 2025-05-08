@@ -4508,6 +4508,48 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(_:adSize:rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleBannerAd",
+                "printedName": "AdWhaleSDK.AdWhaleBannerAd",
+                "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleBannerAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleAdSize",
+                "printedName": "AdWhaleSDK.AdWhaleAdSize",
+                "usr": "c:@M@AdWhaleSDK@E@AdWhaleAdSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleBannerAd(im)init:adSize:rootViewController:",
+            "mangledName": "$s10AdWhaleSDK0ab6BannerA0C_6adSize18rootViewControllerACSS_AA0abaF0OSo06UIViewI0Ctcfc",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(frame:)",
             "children": [
               {
@@ -8350,7 +8392,7 @@
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 1619,
+      "offset": 1128,
       "length": 3,
       "value": "\"0\""
     },
@@ -8401,14 +8443,14 @@
       "kind": "StringLiteral",
       "offset": 155,
       "length": 7,
-      "value": "\"1.0.1\""
+      "value": "\"1.0.2\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 9,
-      "value": "\"1.0.1.0\""
+      "value": "\"1.0.2.0\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
