@@ -36,6 +36,13 @@
         "moduleName": "AdWhaleSDK"
       },
       {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "AdWhaleAds",
         "printedName": "AdWhaleAds",
@@ -436,6 +443,28 @@
           },
           {
             "kind": "Function",
+            "name": "canRequestAds",
+            "printedName": "canRequestAds()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)canRequestAds",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC010canRequestD0SbyF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "isGDPR",
             "printedName": "isGDPR()",
             "children": [
@@ -452,7 +481,8 @@
             "moduleName": "AdWhaleSDK",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -590,6 +620,62 @@
             "mangledName": "$s10AdWhaleSDK0aB3AdsC04showA9Inspector14viewController10completionySo06UIViewH0C_ys5Error_pSgctF",
             "moduleName": "AdWhaleSDK",
             "objc_name": "showAdInspectorWithViewController:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMuted",
+            "printedName": "setMuted(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)setMuted:",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC8setMutedyySbF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVolume",
+            "printedName": "setVolume(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)setVolume:",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC9setVolumeyySfF",
+            "moduleName": "AdWhaleSDK",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -876,8 +962,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               },
               {
@@ -894,6 +980,8 @@
             "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -910,8 +998,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               }
             ],
@@ -922,6 +1010,8 @@
             "objc_name": "adWillPresentFullScreenContent:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -939,8 +1029,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               }
             ],
@@ -951,6 +1041,8 @@
             "objc_name": "adDidDismissFullScreenContent:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1497,42 +1589,6 @@
           },
           {
             "kind": "Function",
-            "name": "ad",
-            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
-                "usr": "c:objc(pl)GADFullScreenPresentingAd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AdWhaleSDK@objc(cs)AdWhaleInterstitialAd(im)ad:didFailToPresentFullScreenContentWithError:",
-            "mangledName": "$s10AdWhaleSDK0ab12InterstitialA0C2ad_42didFailToPresentFullScreenContentWithErrorySo07GADFullk10PresentingA0_p_s0N0_ptF",
-            "moduleName": "AdWhaleSDK",
-            "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "adWillPresentFullScreenContent",
             "printedName": "adWillPresentFullScreenContent(_:)",
             "children": [
@@ -1543,8 +1599,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               }
             ],
@@ -1556,6 +1612,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1574,8 +1632,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               }
             ],
@@ -1587,8 +1645,48 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ad",
+            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdWhaleSDK@objc(cs)AdWhaleInterstitialAd(im)ad:didFailToPresentFullScreenContentWithError:",
+            "mangledName": "$s10AdWhaleSDK0ab12InterstitialA0C2ad_42didFailToPresentFullScreenContentWithErrorySo07GADFullk10PresentingA0_p_s0N0_ptF",
+            "moduleName": "AdWhaleSDK",
+            "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2133,7 +2231,7 @@
         "superclassUsr": "c:objc(cs)GADNativeAdView",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "GoogleMobileAds.GADNativeAdView",
+          "GoogleMobileAds.NativeAdView",
           "UIKit.UIView",
           "UIKit.UIResponder",
           "ObjectiveC.NSObject"
@@ -2320,7 +2418,7 @@
         "superclassUsr": "c:objc(cs)GADMediaView",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "GoogleMobileAds.GADMediaView",
+          "GoogleMobileAds.MediaView",
           "UIKit.UIView",
           "UIKit.UIResponder",
           "ObjectiveC.NSObject"
@@ -2409,6 +2507,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4820,8 +4925,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADBannerView",
-                "printedName": "GoogleMobileAds.GADBannerView",
+                "name": "BannerView",
+                "printedName": "GoogleMobileAds.BannerView",
                 "usr": "c:objc(cs)GADBannerView"
               }
             ],
@@ -4851,8 +4956,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADBannerView",
-                "printedName": "GoogleMobileAds.GADBannerView",
+                "name": "BannerView",
+                "printedName": "GoogleMobileAds.BannerView",
                 "usr": "c:objc(cs)GADBannerView"
               },
               {
@@ -4887,8 +4992,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADBannerView",
-                "printedName": "GoogleMobileAds.GADBannerView",
+                "name": "BannerView",
+                "printedName": "GoogleMobileAds.BannerView",
                 "usr": "c:objc(cs)GADBannerView"
               }
             ],
@@ -4917,8 +5022,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADBannerView",
-                "printedName": "GoogleMobileAds.GADBannerView",
+                "name": "BannerView",
+                "printedName": "GoogleMobileAds.BannerView",
                 "usr": "c:objc(cs)GADBannerView"
               }
             ],
@@ -4947,8 +5052,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADBannerView",
-                "printedName": "GoogleMobileAds.GADBannerView",
+                "name": "BannerView",
+                "printedName": "GoogleMobileAds.BannerView",
                 "usr": "c:objc(cs)GADBannerView"
               }
             ],
@@ -4977,8 +5082,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADBannerView",
-                "printedName": "GoogleMobileAds.GADBannerView",
+                "name": "BannerView",
+                "printedName": "GoogleMobileAds.BannerView",
                 "usr": "c:objc(cs)GADBannerView"
               }
             ],
@@ -5007,8 +5112,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADBannerView",
-                "printedName": "GoogleMobileAds.GADBannerView",
+                "name": "BannerView",
+                "printedName": "GoogleMobileAds.BannerView",
                 "usr": "c:objc(cs)GADBannerView"
               }
             ],
@@ -5150,6 +5255,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -5886,8 +5998,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               }
             ],
@@ -5899,6 +6011,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -5916,8 +6030,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               }
             ],
@@ -5929,6 +6043,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -5946,8 +6062,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               },
               {
@@ -5965,6 +6081,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -7144,12 +7262,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "GoogleMobileAds.GADMediaContent?",
+                "printedName": "GoogleMobileAds.MediaContent?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GADMediaContent",
-                    "printedName": "GoogleMobileAds.GADMediaContent",
+                    "name": "MediaContent",
+                    "printedName": "GoogleMobileAds.MediaContent",
                     "usr": "c:objc(cs)GADMediaContent"
                   }
                 ],
@@ -7176,12 +7294,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "GoogleMobileAds.GADMediaContent?",
+                    "printedName": "GoogleMobileAds.MediaContent?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GADMediaContent",
-                        "printedName": "GoogleMobileAds.GADMediaContent",
+                        "name": "MediaContent",
+                        "printedName": "GoogleMobileAds.MediaContent",
                         "usr": "c:objc(cs)GADMediaContent"
                       }
                     ],
@@ -7211,12 +7329,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "GoogleMobileAds.GADMediaContent?",
+                    "printedName": "GoogleMobileAds.MediaContent?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "GADMediaContent",
-                        "printedName": "GoogleMobileAds.GADMediaContent",
+                        "name": "MediaContent",
+                        "printedName": "GoogleMobileAds.MediaContent",
                         "usr": "c:objc(cs)GADMediaContent"
                       }
                     ],
@@ -7721,12 +7839,14 @@
             "mangledName": "$s10AdWhaleSDK0ab6NativeA6LoaderC14sharedInstanceACvpZ",
             "moduleName": "AdWhaleSDK",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "Available"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -7756,6 +7876,82 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleNativeAdLoader",
+                "printedName": "AdWhaleSDK.AdWhaleNativeAdLoader",
+                "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleNativeAdLoader"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleNativeAdLoader(im)init",
+            "mangledName": "$s10AdWhaleSDK0ab6NativeA6LoaderCACycfc",
+            "moduleName": "AdWhaleSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adUnitId:rootViewController:aspectRatioOption:isMuted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleNativeAdLoader",
+                "printedName": "AdWhaleSDK.AdWhaleNativeAdLoader",
+                "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleNativeAdLoader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleNativeAspectRatio",
+                "printedName": "AdWhaleSDK.AdWhaleNativeAspectRatio",
+                "hasDefaultArg": true,
+                "usr": "c:@M@AdWhaleSDK@E@AdWhaleNativeAspectRatio"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleNativeAdLoader(im)initWithAdUnitId:rootViewController:aspectRatioOption:isMuted:",
+            "mangledName": "$s10AdWhaleSDK0ab6NativeA6LoaderC8adUnitId18rootViewController17aspectRatioOption7isMutedACSS_So06UIViewK0CAA0abd6AspectM0OSbtcfc",
+            "moduleName": "AdWhaleSDK",
+            "objc_name": "initWithAdUnitId:rootViewController:aspectRatioOption:isMuted:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
           },
           {
             "kind": "Function",
@@ -7825,6 +8021,33 @@
             "mangledName": "$s10AdWhaleSDK0ab6NativeA6LoaderC10initialize8adUnitId18rootViewController17aspectRatioOptionySS_So06UIViewL0CAA0abd6AspectN0OtF",
             "moduleName": "AdWhaleSDK",
             "objc_name": "initializeWithAdUnitId:rootViewController:aspectRatioOption:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMuted",
+            "printedName": "setMuted(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleNativeAdLoader(im)setMuted:",
+            "mangledName": "$s10AdWhaleSDK0ab6NativeA6LoaderC8setMutedyySbF",
+            "moduleName": "AdWhaleSDK",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -7954,6 +8177,27 @@
           },
           {
             "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleNativeAdLoader(im)destroy",
+            "mangledName": "$s10AdWhaleSDK0ab6NativeA6LoaderC7destroyyyF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "adLoader",
             "printedName": "adLoader(_:didReceive:)",
             "children": [
@@ -7964,14 +8208,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADAdLoader",
-                "printedName": "GoogleMobileAds.GADAdLoader",
+                "name": "AdLoader",
+                "printedName": "GoogleMobileAds.AdLoader",
                 "usr": "c:objc(cs)GADAdLoader"
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADNativeAd",
-                "printedName": "GoogleMobileAds.GADNativeAd",
+                "name": "NativeAd",
+                "printedName": "GoogleMobileAds.NativeAd",
                 "usr": "c:objc(cs)GADNativeAd"
               }
             ],
@@ -8000,8 +8244,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADAdLoader",
-                "printedName": "GoogleMobileAds.GADAdLoader",
+                "name": "AdLoader",
+                "printedName": "GoogleMobileAds.AdLoader",
                 "usr": "c:objc(cs)GADAdLoader"
               },
               {
@@ -8036,8 +8280,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADNativeAd",
-                "printedName": "GoogleMobileAds.GADNativeAd",
+                "name": "NativeAd",
+                "printedName": "GoogleMobileAds.NativeAd",
                 "usr": "c:objc(cs)GADNativeAd"
               }
             ],
@@ -8066,8 +8310,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADNativeAd",
-                "printedName": "GoogleMobileAds.GADNativeAd",
+                "name": "NativeAd",
+                "printedName": "GoogleMobileAds.NativeAd",
                 "usr": "c:objc(cs)GADNativeAd"
               }
             ],
@@ -8096,8 +8340,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADNativeAd",
-                "printedName": "GoogleMobileAds.GADNativeAd",
+                "name": "NativeAd",
+                "printedName": "GoogleMobileAds.NativeAd",
                 "usr": "c:objc(cs)GADNativeAd"
               }
             ],
@@ -8109,6 +8353,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -8126,8 +8372,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADNativeAd",
-                "printedName": "GoogleMobileAds.GADNativeAd",
+                "name": "NativeAd",
+                "printedName": "GoogleMobileAds.NativeAd",
                 "usr": "c:objc(cs)GADNativeAd"
               }
             ],
@@ -8139,6 +8385,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -8156,8 +8404,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADNativeAd",
-                "printedName": "GoogleMobileAds.GADNativeAd",
+                "name": "NativeAd",
+                "printedName": "GoogleMobileAds.NativeAd",
                 "usr": "c:objc(cs)GADNativeAd"
               }
             ],
@@ -8169,6 +8417,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -8184,7 +8434,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
@@ -8377,6 +8626,30 @@
         "printedName": "CaulySDK",
         "declKind": "Import",
         "moduleName": "AdWhaleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdWhaleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CaulySDK",
+        "printedName": "CaulySDK",
+        "declKind": "Import",
+        "moduleName": "AdWhaleSDK"
       }
     ],
     "json_format_version": 8
@@ -8385,56 +8658,56 @@
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 674,
+      "offset": 693,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 1128,
+      "offset": 1147,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
       "kind": "StringLiteral",
-      "offset": 1990,
+      "offset": 1981,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
       "kind": "StringLiteral",
-      "offset": 2115,
+      "offset": 2103,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
       "kind": "StringLiteral",
-      "offset": 2236,
+      "offset": 2221,
+      "length": 7,
+      "value": "\"close\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
+      "kind": "StringLiteral",
+      "offset": 2349,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
       "kind": "StringLiteral",
-      "offset": 2359,
+      "offset": 2403,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
       "kind": "StringLiteral",
-      "offset": 2413,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
-      "kind": "StringLiteral",
-      "offset": 2486,
+      "offset": 2476,
       "length": 10,
       "value": "\"subtitle\""
     },
@@ -8443,14 +8716,14 @@
       "kind": "StringLiteral",
       "offset": 155,
       "length": 7,
-      "value": "\"1.0.2\""
+      "value": "\"1.0.3\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 9,
-      "value": "\"1.0.2.0\""
+      "value": "\"1.0.3.0\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
@@ -8574,44 +8847,58 @@
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 324,
+      "offset": 321,
       "length": 4,
       "value": "3600"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 331,
+      "offset": 328,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 574,
+      "offset": 571,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 610,
+      "offset": 607,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 694,
+      "offset": 691,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 762,
+      "offset": 759,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleNativeAdLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 557,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleNativeAdLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 972,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

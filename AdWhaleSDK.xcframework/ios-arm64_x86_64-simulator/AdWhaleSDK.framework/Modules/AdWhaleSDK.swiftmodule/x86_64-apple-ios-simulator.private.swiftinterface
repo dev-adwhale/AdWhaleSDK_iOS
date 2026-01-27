@@ -1,8 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-4.1.50 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AdWhaleSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2 effective-4.1.50 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdWhaleSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 @_exported import AdWhaleSDK
+import AppLovinSDK
 import AppTrackingTransparency
 import CaulySDK
 import Foundation
@@ -17,27 +18,36 @@ import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AdWhaleAds : ObjectiveC.NSObject {
   @objc public static let sharedInstance: AdWhaleSDK.AdWhaleAds
   @objc public func initialize(_ appId: Swift.String = "0", completionHandler: @escaping () -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func initialize(appId: Swift.String = "0", rootViewController: UIKit.UIViewController, useGdpr: Swift.Bool, testDevices: [Swift.String]?, completionHandler: @escaping () -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func gdpr(_ rootViewController: UIKit.UIViewController, testDevices: [Swift.String]?, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  #endif
   @objc public func tagForChildDirectedTreatment(_ tagForChildDirectedTreatment: Foundation.NSNumber)
   @objc public func tagForUnderAgeOfConsent(_ tagForUnderAgeOfConsent: Foundation.NSNumber)
   @objc public func maxAdContentRating(_ maxAdContentRating: AdWhaleSDK.AdWhaleMaxAdContentRating)
   @objc public func resetGDPR(completionHandler: @escaping () -> Swift.Void)
   @objc public func canShowAds() -> Swift.Bool
+  @objc public func canRequestAds() -> Swift.Bool
   @objc public func isGDPR() -> Swift.Bool
   @objc public func setLogLevel(logLevel: AdWhaleSDK.AdWhaleLogLevel)
   @objc public func setTestDeviceIdentifiers(testDeviceIdentifiers: Swift.String)
   @objc public func showAdInspector(viewController: UIKit.UIViewController)
-  @objc public func showAdInspector(viewController: UIKit.UIViewController, completion: @escaping (Swift.Optional<(any Swift.Error)>) -> ())
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func showAdInspector(viewController: UIKit.UIViewController, completion: @escaping (Swift.Optional<any Swift.Error>) -> ())
+  #endif
+  @objc public func setMuted(_ muted: Swift.Bool)
+  @objc public func setVolume(_ volume: Swift.Float)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class AdWhaleRewardAd : ObjectiveC.NSObject, GoogleMobileAds.GADFullScreenContentDelegate {
+@objc @_inheritsConvenienceInitializers public class AdWhaleRewardAd : ObjectiveC.NSObject, GoogleMobileAds.FullScreenContentDelegate {
   @objc weak public var rewardDelegate: (any AdWhaleSDK.AdWhaleRewardDelegate)?
   @objc public func load(_ adUnitId: Swift.String)
   @objc public func show(_ rootViewController: UIKit.UIViewController)
-  @objc public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
-  @objc public func adWillPresentFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
-  @objc public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc public func adWillPresentFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -56,10 +66,10 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
 }
-extension AdWhaleSDK.AdWhaleInterstitialAd : GoogleMobileAds.GADFullScreenContentDelegate {
-  @objc dynamic public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
-  @objc dynamic public func adWillPresentFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
-  @objc dynamic public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
+extension AdWhaleSDK.AdWhaleInterstitialAd : GoogleMobileAds.FullScreenContentDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adWillPresentFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
 }
 @objc public protocol AdWhaleInterstitialDelegate {
   @objc func adDidReceiveInterstitialAd(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
@@ -68,7 +78,7 @@ extension AdWhaleSDK.AdWhaleInterstitialAd : GoogleMobileAds.GADFullScreenConten
   @objc func adWillPresentInterstitialAd(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
   @objc func adDidDismissInterstitialAd(_ ad: AdWhaleSDK.AdWhaleInterstitialAd)
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency open class AdWhaleNativeAdView : GoogleMobileAds.GADNativeAdView, AdWhaleSDK.AdWhaleRenderable {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency open class AdWhaleNativeAdView : GoogleMobileAds.NativeAdView, AdWhaleSDK.AdWhaleRenderable {
   @_Concurrency.MainActor @preconcurrency @objc open func adTitleLabel() -> UIKit.UILabel
   @_Concurrency.MainActor @preconcurrency @objc open func adBodyLabel() -> UIKit.UILabel
   @_Concurrency.MainActor @preconcurrency @objc open func adCallToActionButton() -> UIKit.UIButton
@@ -76,12 +86,16 @@ extension AdWhaleSDK.AdWhaleInterstitialAd : GoogleMobileAds.GADFullScreenConten
   @_Concurrency.MainActor @preconcurrency @objc open func adProfileIconView() -> UIKit.UIImageView
   @_Concurrency.MainActor @preconcurrency @objc open func adMediaView() -> AdWhaleSDK.AdWhaleMediaView
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AdWhaleMediaView : GoogleMobileAds.GADMediaView {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AdWhaleMediaView : GoogleMobileAds.MediaView {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc public protocol AdWhaleRenderable {
@@ -104,7 +118,9 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   case parentalGuidance
   case teen
   case matureAudience
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -119,7 +135,9 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   public var size: CoreFoundation.CGSize {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -133,7 +151,9 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   public var printRatio: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -145,31 +165,39 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   case notice
   case info
   case debug
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AdWhaleBannerAd : UIKit.UIView, GoogleMobileAds.GADBannerViewDelegate {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AdWhaleBannerAd : UIKit.UIView, GoogleMobileAds.BannerViewDelegate {
   @objc @_Concurrency.MainActor @preconcurrency public init(_ adUnitId: Swift.String, adSize: AdWhaleSDK.AdWhaleAdSize, rootViewController: UIKit.UIViewController)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @objc @_Concurrency.MainActor @preconcurrency public init(_ adSize: AdWhaleSDK.AdWhaleAdSize)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc @_Concurrency.MainActor @preconcurrency public func setAdUnitID(_ adUnitID: Swift.String)
   @objc @_Concurrency.MainActor @preconcurrency public func setAdSize(_ adSize: AdWhaleSDK.AdWhaleAdSize)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency public func setDelegate(_ delegate: (any AdWhaleSDK.AdWhaleBannerDelegate)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency public func setRootViewController(_ rootViewController: UIKit.UIViewController?)
-  @objc @_Concurrency.MainActor @preconcurrency public func load()
-  @_Concurrency.MainActor @preconcurrency @objc public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
-  @_Concurrency.MainActor @preconcurrency @objc public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
-  @_Concurrency.MainActor @preconcurrency @objc public func bannerViewDidRecordImpression(_ bannerView: GoogleMobileAds.GADBannerView)
-  @_Concurrency.MainActor @preconcurrency @objc public func bannerViewWillPresentScreen(_ bannerView: GoogleMobileAds.GADBannerView)
-  @_Concurrency.MainActor @preconcurrency @objc public func bannerViewWillDismissScreen(_ bannerView: GoogleMobileAds.GADBannerView)
-  @_Concurrency.MainActor @preconcurrency @objc public func bannerViewDidDismissScreen(_ bannerView: GoogleMobileAds.GADBannerView)
-  @_Concurrency.MainActor @preconcurrency @objc public func bannerViewDidRecordClick(_ bannerView: GoogleMobileAds.GADBannerView)
-  @objc @_Concurrency.MainActor @preconcurrency public func destroy()
+  #endif
   @objc deinit
+  @objc @_Concurrency.MainActor @preconcurrency public func load()
+  @_Concurrency.MainActor @preconcurrency @objc public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.BannerView)
+  @_Concurrency.MainActor @preconcurrency @objc public func bannerView(_ bannerView: GoogleMobileAds.BannerView, didFailToReceiveAdWithError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc public func bannerViewDidRecordImpression(_ bannerView: GoogleMobileAds.BannerView)
+  @_Concurrency.MainActor @preconcurrency @objc public func bannerViewWillPresentScreen(_ bannerView: GoogleMobileAds.BannerView)
+  @_Concurrency.MainActor @preconcurrency @objc public func bannerViewWillDismissScreen(_ bannerView: GoogleMobileAds.BannerView)
+  @_Concurrency.MainActor @preconcurrency @objc public func bannerViewDidDismissScreen(_ bannerView: GoogleMobileAds.BannerView)
+  @_Concurrency.MainActor @preconcurrency @objc public func bannerViewDidRecordClick(_ bannerView: GoogleMobileAds.BannerView)
+  @objc @_Concurrency.MainActor @preconcurrency public func destroy()
 }
 @objc public protocol AdWhaleBannerDelegate {
   @objc func bannerViewDidReceiveAd(_ bannerView: AdWhaleSDK.AdWhaleBannerAd)
@@ -187,7 +215,9 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   @objc public func loadAd()
   public func clearAd()
   @objc public func showAdIfAvailable()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func showAdIfAvailable(_ viewController: UIKit.UIViewController?)
+  #endif
   @objc deinit
 }
 @objc public protocol AdWhaleAppOpenAdViewDelegate {
@@ -200,10 +230,10 @@ public let ADWHALE_ADAPTER_VERSION: Swift.String
   @objc func adDidDismissAppOpenAd()
   @objc func adDidFailToPresentAppOpenAd(error: any Swift.Error)
 }
-extension AdWhaleSDK.AdWhaleAppOpenAd : GoogleMobileAds.GADFullScreenContentDelegate {
-  @objc dynamic public func adWillPresentFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
-  @objc dynamic public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
-  @objc dynamic public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+extension AdWhaleSDK.AdWhaleAppOpenAd : GoogleMobileAds.FullScreenContentDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adWillPresentFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
 }
 @objc @_inheritsConvenienceInitializers public class AdWhaleNativeAd : ObjectiveC.NSObject {
   @objc weak public var delegate: (any AdWhaleSDK.AdWhaleNativeAdDelegate)?
@@ -213,7 +243,7 @@ extension AdWhaleSDK.AdWhaleAppOpenAd : GoogleMobileAds.GADFullScreenContentDele
   @objc public var profileName: Swift.String?
   @objc public var callToAction: Swift.String?
   @objc public var icon: UIKit.UIImage?
-  @objc public var mediaContent: GoogleMobileAds.GADMediaContent?
+  @objc public var mediaContent: GoogleMobileAds.MediaContent?
   @objc override dynamic public init()
   @objc deinit
 }
@@ -225,25 +255,34 @@ extension AdWhaleSDK.AdWhaleAppOpenAd : GoogleMobileAds.GADFullScreenContentDele
   @objc func nativeAdDidDismissScreen(_ nativeAd: AdWhaleSDK.AdWhaleNativeAd)
   @objc func nativeAdWillLeaveApplication(_ nativeAd: AdWhaleSDK.AdWhaleNativeAd)
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AdWhaleNativeAdLoader : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers public class AdWhaleNativeAdLoader : ObjectiveC.NSObject {
   @objc weak public var delegate: (any AdWhaleSDK.AdWhaleNativeAdLoaderDelegate)?
+  @available(*, deprecated)
   @objc public static let sharedInstance: AdWhaleSDK.AdWhaleNativeAdLoader
+  @objc override dynamic public init()
+  @objc convenience public init(adUnitId: Swift.String, rootViewController: UIKit.UIViewController, aspectRatioOption: AdWhaleSDK.AdWhaleNativeAspectRatio = .any, isMuted: Swift.Bool = true)
   @objc public func initialize(adUnitId: Swift.String, rootViewController: UIKit.UIViewController)
   @objc public func initialize(adUnitId: Swift.String, rootViewController: UIKit.UIViewController, aspectRatioOption: AdWhaleSDK.AdWhaleNativeAspectRatio)
+  @objc public func setMuted(_ isMuted: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func setRootViewController(_ rootViewController: UIKit.UIViewController?)
+  #endif
+  @objc deinit
   @objc public func loadAd()
   @objc public func bind(_ nativeAdView: AdWhaleSDK.AdWhaleNativeAdView)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func bindView(_ renderingView: UIKit.UIView) -> AdWhaleSDK.AdWhaleNativeAdView?
-  @objc deinit
+  #endif
+  @objc public func destroy()
 }
-extension AdWhaleSDK.AdWhaleNativeAdLoader : GoogleMobileAds.GADNativeAdLoaderDelegate, GoogleMobileAds.GADNativeAdDelegate {
-  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didReceive nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didFailToReceiveAdWithError error: any Swift.Error)
-  @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc dynamic public func nativeAdWillPresentScreen(_ nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc dynamic public func nativeAdWillDismissScreen(_ nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc dynamic public func nativeAdDidDismissScreen(_ nativeAd: GoogleMobileAds.GADNativeAd)
+extension AdWhaleSDK.AdWhaleNativeAdLoader : GoogleMobileAds.NativeAdLoaderDelegate, GoogleMobileAds.NativeAdDelegate {
+  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.AdLoader, didReceive nativeAd: GoogleMobileAds.NativeAd)
+  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.AdLoader, didFailToReceiveAdWithError error: any Swift.Error)
+  @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
+  @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdWillPresentScreen(_ nativeAd: GoogleMobileAds.NativeAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdWillDismissScreen(_ nativeAd: GoogleMobileAds.NativeAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidDismissScreen(_ nativeAd: GoogleMobileAds.NativeAd)
 }
 @objc public protocol AdWhaleNativeAdLoaderDelegate {
   @objc func nativeAdLoaderDidReceiveAd(_ nativeAd: AdWhaleSDK.AdWhaleNativeAd)

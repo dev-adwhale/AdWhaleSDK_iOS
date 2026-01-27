@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		/hd1hkqRvffTfIEOFSkuNgM2P+k=
+		oCjPPiW9l7AUrBkbKMEVUXjwVXA=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/AdWhaleSDK-Swift.h</key>
 		<data>
-		AGPxSwq8H072i/MK9BWikp0g+8k=
+		oI0ZGHkfTd4VtIsWVHsVrNSHZ/8=
 		</data>
 		<key>Headers/AdWhaleSDK.h</key>
 		<data>
@@ -22,31 +22,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2cK6edoaFYP+xUbrqjpIslFCHsw=
+		ARDUEopEpI6GHORF4IsdhD4dydY=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		UvF2rNcEJGyMRblF8QZBaFq+Y+M=
+		fTn90DUw1xEKJe6s0tRyGvM6Qd8=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		qDu8rQihPq4OiXDlnxvhvHmLixY=
+		zVkON0skJabXWqzZI5tWylaeyUU=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		+qIAD/3kvGNcy1CaOMJivvakF+4=
+		SQTNt2ZWuK9/60CNYO+vFgiDA0Q=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		qDu8rQihPq4OiXDlnxvhvHmLixY=
+		zVkON0skJabXWqzZI5tWylaeyUU=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1RHUtbfwCKSkKQTidMLPlqIQkFc=
+		ZVcIzbH/bHc1oELXqkKGVh2AQVg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		wEawxPmC1lHtBRLEgrHbweWq0vM=
+		</data>
+		<key>MolocoSDK.bundle/Info.plist</key>
+		<data>
+		0GSzETl2wr2+gGeot9nZGuY8WZ0=
+		</data>
+		<key>MolocoSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		hJKEwRb/BrBZuzCUCo8Mvi5mFAk=
+		</data>
+		<key>MolocoSDK.bundle/Resources.bundle/endcard.html</key>
+		<data>
+		GdIEFHBikc7SVB9eykIZOhWTkr4=
+		</data>
+		<key>MolocoSDK.bundle/mraid.js.ignore</key>
+		<data>
+		QbcmfpscYXVHrQDN7tmKwxTKmss=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -54,7 +70,7 @@
 		</data>
 		<key>UnityAdsResources.bundle/Info.plist</key>
 		<data>
-		88h4u5wBpMR+QCEwO5vOtCICVJ8=
+		cAaPks0foUuXeQhua4otqYN8ysc=
 		</data>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -70,7 +86,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		NWL2tUI2csvCbPqEOsAQusWlYxw=
+		xa6uYqnIFeM05iRQme/Nh/rZWMA=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -83,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AfFQkPGlqrrYeRFiqoJYnigCJ1y/unAO96+/V+vaw/0=
+			1VSbIbiPKQGvjgQHGZRS4qtBDxK4vAR6OUbSCOV1ZHw=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -97,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YSpIO6L/wucHiissg5tDxevW58sjmUtHw+jX1cg5PP0=
+			4BCsxINUPfj7J2aI/q/L2gQmb8Q1K42vnH0iqYYDcjM=
 			</data>
 		</dict>
 		<key>Headers/AdWhaleSDK.h</key>
@@ -111,35 +127,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ueIW9neuzSDUXSipsE7AXnN4lVN+HPa0UpjhbxdOzEk=
+			Mz58xRwbfdP10dJVk/XpDH81a6rnS1LbrV5vSBFfRGM=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7dyL6ieHHmEnw6AY/y5605T2YtVD92Q5Pth5WDiQeBk=
+			Zjfb1oPSDhP+vlJeTylRSVMTjOwUE6CvetOxkeo7nDs=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Zqc8cuvy3Dk01b9N4En7AxA0hDTlBHUBTel4VzjGuI=
+			ZWoj1gRby0mbxjEXCO0IJAihN3mzVJ8FwqbOWb85UVk=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7dyL6ieHHmEnw6AY/y5605T2YtVD92Q5Pth5WDiQeBk=
+			Zjfb1oPSDhP+vlJeTylRSVMTjOwUE6CvetOxkeo7nDs=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WPbgObAgZtCDhPOaG/xxr9LKtSt4p3Zwta1tsXXdY7A=
+			PERvJiO7leHSVJTxVZWxKYIVFjX4G1XXQ6F+Qcj5PQQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -147,6 +163,34 @@
 			<key>hash2</key>
 			<data>
 			zaO78FiYZHeqem93077nnedwM1RrdYXtz14fte2mwdc=
+			</data>
+		</dict>
+		<key>MolocoSDK.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vM8cdYtwuC+yc3R9Plzr+jfVRQ+QQwBVNdSypM7759Q=
+			</data>
+		</dict>
+		<key>MolocoSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ubOnCkg6p4/yut54YsOhIahV81IwyMSGaYVosuDmSjc=
+			</data>
+		</dict>
+		<key>MolocoSDK.bundle/Resources.bundle/endcard.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eolTtxN4GEA4VyA+YonMS7FPWA075nkQk5Fi3KG8BNo=
+			</data>
+		</dict>
+		<key>MolocoSDK.bundle/mraid.js.ignore</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0ymH9S0677V8jqsxQQzygdJKIOtCZOIZSkcaYxd/uQ4=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -160,7 +204,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kBuJeP5TU41oFRl8YZWsJLoXXQHgIyWiIg6vV0V/ykU=
+			L6cfMlFtBrpk15rWvEwk/kzWqTbXIgO0vuR5ose73qM=
 			</data>
 		</dict>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -188,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qi1gKtK0x2rZsGudBLJcSjPJ6J4yPsNgPr9dgdvYSMc=
+			Iq5zyq88SRDW+6HmHjaaSgPQWtUDR+FxOz83UnNqcqY=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
