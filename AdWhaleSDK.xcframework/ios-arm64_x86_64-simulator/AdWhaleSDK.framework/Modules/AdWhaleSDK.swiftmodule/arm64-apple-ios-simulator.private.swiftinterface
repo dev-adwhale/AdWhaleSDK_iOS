@@ -38,6 +38,7 @@ import _SwiftConcurrencyShims
   @objc public func showAdInspector(viewController: UIKit.UIViewController, completion: @escaping (Swift.Optional<any Swift.Error>) -> ())
   #endif
   @objc public func setMuted(_ muted: Swift.Bool)
+  @objc public func isMuted() -> Swift.Bool
   @objc public func setVolume(_ volume: Swift.Float)
   @objc deinit
 }
@@ -260,10 +261,9 @@ extension AdWhaleSDK.AdWhaleAppOpenAd : GoogleMobileAds.FullScreenContentDelegat
   @available(*, deprecated)
   @objc public static let sharedInstance: AdWhaleSDK.AdWhaleNativeAdLoader
   @objc override dynamic public init()
-  @objc convenience public init(adUnitId: Swift.String, rootViewController: UIKit.UIViewController, aspectRatioOption: AdWhaleSDK.AdWhaleNativeAspectRatio = .any, isMuted: Swift.Bool = true)
+  @objc convenience public init(adUnitId: Swift.String, rootViewController: UIKit.UIViewController, aspectRatioOption: AdWhaleSDK.AdWhaleNativeAspectRatio = .any)
   @objc public func initialize(adUnitId: Swift.String, rootViewController: UIKit.UIViewController)
   @objc public func initialize(adUnitId: Swift.String, rootViewController: UIKit.UIViewController, aspectRatioOption: AdWhaleSDK.AdWhaleNativeAspectRatio)
-  @objc public func setMuted(_ isMuted: Swift.Bool)
   #if compiler(>=5.3) && $NonescapableTypes
   @objc public func setRootViewController(_ rootViewController: UIKit.UIViewController?)
   #endif

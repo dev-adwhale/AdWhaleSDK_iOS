@@ -350,6 +350,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAds *
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 - (void)setMuted:(BOOL)muted;
+- (BOOL)isMuted SWIFT_WARN_UNUSED_RESULT;
 - (void)setVolume:(float)volume;
 @end
 
@@ -505,10 +506,9 @@ SWIFT_CLASS("_TtC10AdWhaleSDK21AdWhaleNativeAdLoader")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleNativeAdLoader * _Nonnull sharedInstance SWIFT_DEPRECATED;)
 + (AdWhaleNativeAdLoader * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithAdUnitId:(NSString * _Nonnull)adUnitId rootViewController:(UIViewController * _Nonnull)rootViewController aspectRatioOption:(enum AdWhaleNativeAspectRatio)aspectRatioOption isMuted:(BOOL)isMuted;
+- (nonnull instancetype)initWithAdUnitId:(NSString * _Nonnull)adUnitId rootViewController:(UIViewController * _Nonnull)rootViewController aspectRatioOption:(enum AdWhaleNativeAspectRatio)aspectRatioOption;
 - (void)initializeWithAdUnitId:(NSString * _Nonnull)adUnitId rootViewController:(UIViewController * _Nonnull)rootViewController;
 - (void)initializeWithAdUnitId:(NSString * _Nonnull)adUnitId rootViewController:(UIViewController * _Nonnull)rootViewController aspectRatioOption:(enum AdWhaleNativeAspectRatio)aspectRatioOption;
-- (void)setMuted:(BOOL)isMuted;
 - (void)setRootViewController:(UIViewController * _Nullable)rootViewController;
 - (void)loadAd;
 - (void)bind:(AdWhaleNativeAdView * _Nonnull)nativeAdView;

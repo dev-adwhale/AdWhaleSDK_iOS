@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/AdWhaleSDK-Swift.h</key>
 		<data>
-		FvIPSjUAgUHR25JmzZ7IZBk8Xd0=
+		hGyOxPiOHepO+U2Kgq25RVazGUg=
 		</data>
 		<key>Headers/AdWhaleSDK.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		fTn90DUw1xEKJe6s0tRyGvM6Qd8=
+		VI94g2hxfZFClOLxiDpKEPaDm8E=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		316nZB6uPOETc13gqn8BmiXxa4U=
+		1UmOLuAxNCRRptcnj/FVyPzNyhE=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		316nZB6uPOETc13gqn8BmiXxa4U=
+		1UmOLuAxNCRRptcnj/FVyPzNyhE=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9F3cNjKte+gPmqZ2UuiuAZruKio=
+		EzgvLTapixcbfnAbSyp3ahObfks=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fTn90DUw1xEKJe6s0tRyGvM6Qd8=
+		VI94g2hxfZFClOLxiDpKEPaDm8E=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		H8Cg3CMX7tNTI8frmcNHEaG9bVQ=
+		3bwQoAOmJfVayzZ/1oks+yYhrjc=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		H8Cg3CMX7tNTI8frmcNHEaG9bVQ=
+		3bwQoAOmJfVayzZ/1oks+yYhrjc=
 		</data>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uJwjl9FbQP2vxd0oX7RyfRt6zBA=
+		3OaxXxU0/c9ABzSPkWUENXpdcAU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jc6ubLsCbrtENy+iW5oo7hnx76+oibfysXigR345v64=
+			kWBywnYPjZrhFJZWyNmeN4SMaZg6EqJBmOWeCmaARF8=
 			</data>
 		</dict>
 		<key>Headers/AdWhaleSDK.h</key>
@@ -147,14 +147,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mz58xRwbfdP10dJVk/XpDH81a6rnS1LbrV5vSBFfRGM=
+			kaQKD91Njj2ccUWrLHR35yfhpKzdKAKWKgrk6oXeJw0=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XvDfC1IfX86HIFmIVMJ72hhQLiwQVapwrER9WJtcNlk=
+			9gZmSLRgEg2FYo5c4KfV7FUZ9EFMgErKOoWsalWO9mI=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -168,28 +168,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XvDfC1IfX86HIFmIVMJ72hhQLiwQVapwrER9WJtcNlk=
+			9gZmSLRgEg2FYo5c4KfV7FUZ9EFMgErKOoWsalWO9mI=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X+6nL3LeHU/pczNw118Z3eAEZQ2/2MpntMepoS80PPA=
+			/eX0dZLdA/i9cp+VJQyDEuJKEaK16+2bBvCRWZSDyj8=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mz58xRwbfdP10dJVk/XpDH81a6rnS1LbrV5vSBFfRGM=
+			kaQKD91Njj2ccUWrLHR35yfhpKzdKAKWKgrk6oXeJw0=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QswmNmITgMe01O8QwMPR4lhLqJjjplxXl/5Q1B9ryMQ=
+			NWcvctlCz1JbxxtzUpqYfW77SUOyvNo+wysqSfVaNRw=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -203,14 +203,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QswmNmITgMe01O8QwMPR4lhLqJjjplxXl/5Q1B9ryMQ=
+			NWcvctlCz1JbxxtzUpqYfW77SUOyvNo+wysqSfVaNRw=
 			</data>
 		</dict>
 		<key>Modules/AdWhaleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ER2BpLXOCO97sS/ClSu2LbSfBriNlLHJmkQydx+6BoQ=
+			qHaxGTj+3wTfxhg+5jiR5bDe9MGVWz0caBA7smyDqlg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

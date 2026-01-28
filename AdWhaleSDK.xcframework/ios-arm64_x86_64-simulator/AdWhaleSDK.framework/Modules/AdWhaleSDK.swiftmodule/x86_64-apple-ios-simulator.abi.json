@@ -657,6 +657,28 @@
           },
           {
             "kind": "Function",
+            "name": "isMuted",
+            "printedName": "isMuted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)isMuted",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC7isMutedSbyF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setVolume",
             "printedName": "setVolume(_:)",
             "children": [
@@ -7906,7 +7928,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(adUnitId:rootViewController:aspectRatioOption:isMuted:)",
+            "printedName": "init(adUnitId:rootViewController:aspectRatioOption:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7932,20 +7954,13 @@
                 "printedName": "AdWhaleSDK.AdWhaleNativeAspectRatio",
                 "hasDefaultArg": true,
                 "usr": "c:@M@AdWhaleSDK@E@AdWhaleNativeAspectRatio"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleNativeAdLoader(im)initWithAdUnitId:rootViewController:aspectRatioOption:isMuted:",
-            "mangledName": "$s10AdWhaleSDK0ab6NativeA6LoaderC8adUnitId18rootViewController17aspectRatioOption7isMutedACSS_So06UIViewK0CAA0abd6AspectM0OSbtcfc",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleNativeAdLoader(im)initWithAdUnitId:rootViewController:aspectRatioOption:",
+            "mangledName": "$s10AdWhaleSDK0ab6NativeA6LoaderC8adUnitId18rootViewController17aspectRatioOptionACSS_So06UIViewK0CAA0abd6AspectM0Otcfc",
             "moduleName": "AdWhaleSDK",
-            "objc_name": "initWithAdUnitId:rootViewController:aspectRatioOption:isMuted:",
+            "objc_name": "initWithAdUnitId:rootViewController:aspectRatioOption:",
             "declAttributes": [
               "Convenience",
               "AccessControl",
@@ -8021,33 +8036,6 @@
             "mangledName": "$s10AdWhaleSDK0ab6NativeA6LoaderC10initialize8adUnitId18rootViewController17aspectRatioOptionySS_So06UIViewL0CAA0abd6AspectN0OtF",
             "moduleName": "AdWhaleSDK",
             "objc_name": "initializeWithAdUnitId:rootViewController:aspectRatioOption:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setMuted",
-            "printedName": "setMuted(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleNativeAdLoader(im)setMuted:",
-            "mangledName": "$s10AdWhaleSDK0ab6NativeA6LoaderC8setMutedyySbF",
-            "moduleName": "AdWhaleSDK",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -8657,15 +8645,22 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "BooleanLiteral",
+      "offset": 414,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 693,
+      "offset": 721,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 1147,
+      "offset": 1175,
       "length": 3,
       "value": "\"0\""
     },
@@ -8885,20 +8880,6 @@
       "offset": 759,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleNativeAdLoader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 557,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleNativeAdLoader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 972,
-      "length": 4,
-      "value": "true"
     }
   ]
 }
