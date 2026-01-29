@@ -8652,15 +8652,22 @@
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "FloatLiteral",
+      "offset": 444,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 721,
+      "offset": 784,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 1175,
+      "offset": 1238,
       "length": 3,
       "value": "\"0\""
     },
