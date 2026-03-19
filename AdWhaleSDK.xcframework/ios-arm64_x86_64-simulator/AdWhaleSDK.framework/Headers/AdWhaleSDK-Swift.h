@@ -338,15 +338,20 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAds *
 /// UMP GDPR
 /// testDevices: 테스트 디바이스 설정
 - (void)gdpr:(UIViewController * _Nonnull)rootViewController testDevices:(NSArray<NSString *> * _Nullable)testDevices completionHandler:(void (^ _Nonnull)(BOOL))completionHandler;
-- (void)tagForChildDirectedTreatment:(NSNumber * _Nonnull)tagForChildDirectedTreatment;
-- (void)tagForUnderAgeOfConsent:(NSNumber * _Nonnull)tagForUnderAgeOfConsent;
+- (BOOL)getGdprConsentStatus SWIFT_WARN_UNUSED_RESULT;
+- (void)setTagForChildDirectedTreatment:(NSNumber * _Nonnull)tagForChildDirectedTreatment;
+- (NSNumber * _Nullable)getTagForChildDirectedTreatment SWIFT_WARN_UNUSED_RESULT;
+- (void)setTagForUnderAgeOfConsent:(NSNumber * _Nonnull)tagForUnderAgeOfConsent;
+- (NSNumber * _Nullable)getTagForUnderAgeOfConsent SWIFT_WARN_UNUSED_RESULT;
 - (void)maxAdContentRating:(enum AdWhaleMaxAdContentRating)maxAdContentRating;
+- (NSString * _Nullable)getMaxAdContentRating SWIFT_WARN_UNUSED_RESULT;
 - (void)resetGDPRWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (BOOL)canShowAds SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)canRequestAds SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isGDPR SWIFT_WARN_UNUSED_RESULT;
 - (void)setLogLevelWithLogLevel:(enum AdWhaleLogLevel)logLevel;
-- (void)setTestDeviceIdentifiersWithTestDeviceIdentifiers:(NSString * _Nonnull)testDeviceIdentifiers;
+- (enum AdWhaleLogLevel)getLogLevel SWIFT_WARN_UNUSED_RESULT;
+- (void)setTestDeviceIdentifiers:(NSArray * _Nonnull)identifiers;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 - (void)setMuted:(BOOL)muted;
@@ -600,6 +605,13 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK21AdWhaleRewardDelegate_")
 /// Tells the delegate that the ad dismissed full screen content.
 - (void)adDidDismissRewardAd:(AdWhaleRewardAd * _Nonnull)ad;
 @end
+
+typedef SWIFT_ENUM(NSInteger, GdprConsentStatus, open) {
+  GdprConsentStatusUnknown = 0,
+  GdprConsentStatusRequired = 1,
+  GdprConsentStatusNotRequired = 2,
+  GdprConsentStatusObtained = 3,
+};
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -949,15 +961,20 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdWhaleAds *
 /// UMP GDPR
 /// testDevices: 테스트 디바이스 설정
 - (void)gdpr:(UIViewController * _Nonnull)rootViewController testDevices:(NSArray<NSString *> * _Nullable)testDevices completionHandler:(void (^ _Nonnull)(BOOL))completionHandler;
-- (void)tagForChildDirectedTreatment:(NSNumber * _Nonnull)tagForChildDirectedTreatment;
-- (void)tagForUnderAgeOfConsent:(NSNumber * _Nonnull)tagForUnderAgeOfConsent;
+- (BOOL)getGdprConsentStatus SWIFT_WARN_UNUSED_RESULT;
+- (void)setTagForChildDirectedTreatment:(NSNumber * _Nonnull)tagForChildDirectedTreatment;
+- (NSNumber * _Nullable)getTagForChildDirectedTreatment SWIFT_WARN_UNUSED_RESULT;
+- (void)setTagForUnderAgeOfConsent:(NSNumber * _Nonnull)tagForUnderAgeOfConsent;
+- (NSNumber * _Nullable)getTagForUnderAgeOfConsent SWIFT_WARN_UNUSED_RESULT;
 - (void)maxAdContentRating:(enum AdWhaleMaxAdContentRating)maxAdContentRating;
+- (NSString * _Nullable)getMaxAdContentRating SWIFT_WARN_UNUSED_RESULT;
 - (void)resetGDPRWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (BOOL)canShowAds SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)canRequestAds SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isGDPR SWIFT_WARN_UNUSED_RESULT;
 - (void)setLogLevelWithLogLevel:(enum AdWhaleLogLevel)logLevel;
-- (void)setTestDeviceIdentifiersWithTestDeviceIdentifiers:(NSString * _Nonnull)testDeviceIdentifiers;
+- (enum AdWhaleLogLevel)getLogLevel SWIFT_WARN_UNUSED_RESULT;
+- (void)setTestDeviceIdentifiers:(NSArray * _Nonnull)identifiers;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController;
 - (void)showAdInspectorWithViewController:(UIViewController * _Nonnull)viewController completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 - (void)setMuted:(BOOL)muted;
@@ -1211,6 +1228,13 @@ SWIFT_PROTOCOL("_TtP10AdWhaleSDK21AdWhaleRewardDelegate_")
 /// Tells the delegate that the ad dismissed full screen content.
 - (void)adDidDismissRewardAd:(AdWhaleRewardAd * _Nonnull)ad;
 @end
+
+typedef SWIFT_ENUM(NSInteger, GdprConsentStatus, open) {
+  GdprConsentStatusUnknown = 0,
+  GdprConsentStatusRequired = 1,
+  GdprConsentStatusNotRequired = 2,
+  GdprConsentStatusObtained = 3,
+};
 
 #endif
 #if __has_attribute(external_source_symbol)

@@ -24,15 +24,26 @@ import _SwiftConcurrencyShims
   #if compiler(>=5.3) && $NonescapableTypes
   @objc public func gdpr(_ rootViewController: UIKit.UIViewController, testDevices: [Swift.String]?, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
   #endif
-  @objc public func tagForChildDirectedTreatment(_ tagForChildDirectedTreatment: Foundation.NSNumber)
-  @objc public func tagForUnderAgeOfConsent(_ tagForUnderAgeOfConsent: Foundation.NSNumber)
+  @objc public func getGdprConsentStatus() -> Swift.Bool
+  @objc public func setTagForChildDirectedTreatment(_ tagForChildDirectedTreatment: Foundation.NSNumber)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func getTagForChildDirectedTreatment() -> Foundation.NSNumber?
+  #endif
+  @objc public func setTagForUnderAgeOfConsent(_ tagForUnderAgeOfConsent: Foundation.NSNumber)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func getTagForUnderAgeOfConsent() -> Foundation.NSNumber?
+  #endif
   @objc public func maxAdContentRating(_ maxAdContentRating: AdWhaleSDK.AdWhaleMaxAdContentRating)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func getMaxAdContentRating() -> Swift.String?
+  #endif
   @objc public func resetGDPR(completionHandler: @escaping () -> Swift.Void)
   @objc public func canShowAds() -> Swift.Bool
   @objc public func canRequestAds() -> Swift.Bool
   @objc public func isGDPR() -> Swift.Bool
   @objc public func setLogLevel(logLevel: AdWhaleSDK.AdWhaleLogLevel)
-  @objc public func setTestDeviceIdentifiers(testDeviceIdentifiers: Swift.String)
+  @objc public func getLogLevel() -> AdWhaleSDK.AdWhaleLogLevel
+  @objc public func setTestDeviceIdentifiers(_ identifiers: Foundation.NSArray)
   @objc public func showAdInspector(viewController: UIKit.UIViewController)
   #if compiler(>=5.3) && $NonescapableTypes
   @objc public func showAdInspector(viewController: UIKit.UIViewController, completion: @escaping (Swift.Optional<any Swift.Error>) -> ())
@@ -114,6 +125,19 @@ extension AdWhaleSDK.AdWhaleInterstitialAd : GoogleMobileAds.FullScreenContentDe
 }
 public let ADWHALE_SDK_VERSION: Swift.String
 public let ADWHALE_ADAPTER_VERSION: Swift.String
+@objc public enum GdprConsentStatus : Swift.Int {
+  case unknown = 0
+  case required = 1
+  case notRequired = 2
+  case obtained = 3
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @objc public enum AdWhaleMaxAdContentRating : Swift.Int {
   case general = 0
   case parentalGuidance
@@ -276,10 +300,10 @@ extension AdWhaleSDK.AdWhaleAppOpenAd : GoogleMobileAds.FullScreenContentDelegat
   @objc public func destroy()
 }
 extension AdWhaleSDK.AdWhaleNativeAdLoader : GoogleMobileAds.NativeAdLoaderDelegate, GoogleMobileAds.NativeAdDelegate {
-  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.AdLoader, didReceive nativeAd: GoogleMobileAds.NativeAd)
-  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.AdLoader, didFailToReceiveAdWithError error: any Swift.Error)
-  @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
-  @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.AdLoader, didReceive nativeAd: GoogleMobileAds.NativeAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.AdLoader, didFailToReceiveAdWithError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdWillPresentScreen(_ nativeAd: GoogleMobileAds.NativeAd)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdWillDismissScreen(_ nativeAd: GoogleMobileAds.NativeAd)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidDismissScreen(_ nativeAd: GoogleMobileAds.NativeAd)
@@ -288,6 +312,9 @@ extension AdWhaleSDK.AdWhaleNativeAdLoader : GoogleMobileAds.NativeAdLoaderDeleg
   @objc func nativeAdLoaderDidReceiveAd(_ nativeAd: AdWhaleSDK.AdWhaleNativeAd)
   @objc func nativeAdLoaderDidFailToReceiveAd(_ nativeAd: AdWhaleSDK.AdWhaleNativeAdLoader, error: any Swift.Error)
 }
+extension AdWhaleSDK.GdprConsentStatus : Swift.Equatable {}
+extension AdWhaleSDK.GdprConsentStatus : Swift.Hashable {}
+extension AdWhaleSDK.GdprConsentStatus : Swift.RawRepresentable {}
 extension AdWhaleSDK.AdWhaleMaxAdContentRating : Swift.Equatable {}
 extension AdWhaleSDK.AdWhaleMaxAdContentRating : Swift.Hashable {}
 extension AdWhaleSDK.AdWhaleMaxAdContentRating : Swift.RawRepresentable {}

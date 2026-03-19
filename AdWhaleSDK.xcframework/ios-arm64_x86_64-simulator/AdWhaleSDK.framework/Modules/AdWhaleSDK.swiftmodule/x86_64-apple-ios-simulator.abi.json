@@ -297,24 +297,19 @@
           },
           {
             "kind": "Function",
-            "name": "tagForChildDirectedTreatment",
-            "printedName": "tagForChildDirectedTreatment(_:)",
+            "name": "getGdprConsentStatus",
+            "printedName": "getGdprConsentStatus()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSNumber",
-                "printedName": "Foundation.NSNumber",
-                "usr": "c:objc(cs)NSNumber"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)tagForChildDirectedTreatment:",
-            "mangledName": "$s10AdWhaleSDK0aB3AdsC28tagForChildDirectedTreatmentyySo8NSNumberCF",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)getGdprConsentStatus",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC20getGdprConsentStatusSbyF",
             "moduleName": "AdWhaleSDK",
             "declAttributes": [
               "AccessControl",
@@ -325,8 +320,8 @@
           },
           {
             "kind": "Function",
-            "name": "tagForUnderAgeOfConsent",
-            "printedName": "tagForUnderAgeOfConsent(_:)",
+            "name": "setTagForChildDirectedTreatment",
+            "printedName": "setTagForChildDirectedTreatment(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -341,8 +336,98 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)tagForUnderAgeOfConsent:",
-            "mangledName": "$s10AdWhaleSDK0aB3AdsC23tagForUnderAgeOfConsentyySo8NSNumberCF",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)setTagForChildDirectedTreatment:",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC31setTagForChildDirectedTreatmentyySo8NSNumberCF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTagForChildDirectedTreatment",
+            "printedName": "getTagForChildDirectedTreatment()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)getTagForChildDirectedTreatment",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC31getTagForChildDirectedTreatmentSo8NSNumberCSgyF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTagForUnderAgeOfConsent",
+            "printedName": "setTagForUnderAgeOfConsent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)setTagForUnderAgeOfConsent:",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC26setTagForUnderAgeOfConsentyySo8NSNumberCF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTagForUnderAgeOfConsent",
+            "printedName": "getTagForUnderAgeOfConsent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)getTagForUnderAgeOfConsent",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC26getTagForUnderAgeOfConsentSo8NSNumberCSgyF",
             "moduleName": "AdWhaleSDK",
             "declAttributes": [
               "AccessControl",
@@ -371,6 +456,37 @@
             "declKind": "Func",
             "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)maxAdContentRating:",
             "mangledName": "$s10AdWhaleSDK0aB3AdsC03maxA13ContentRatingyyAA0ab3MaxafG0OF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMaxAdContentRating",
+            "printedName": "getMaxAdContentRating()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)getMaxAdContentRating",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC06getMaxA13ContentRatingSSSgyF",
             "moduleName": "AdWhaleSDK",
             "declAttributes": [
               "AccessControl",
@@ -516,8 +632,30 @@
           },
           {
             "kind": "Function",
+            "name": "getLogLevel",
+            "printedName": "getLogLevel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdWhaleLogLevel",
+                "printedName": "AdWhaleSDK.AdWhaleLogLevel",
+                "usr": "c:@M@AdWhaleSDK@E@AdWhaleLogLevel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)getLogLevel",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC11getLogLevelAA0abfG0OyF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setTestDeviceIdentifiers",
-            "printedName": "setTestDeviceIdentifiers(testDeviceIdentifiers:)",
+            "printedName": "setTestDeviceIdentifiers(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -526,16 +664,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "NSArray",
+                "printedName": "Foundation.NSArray",
+                "usr": "c:objc(cs)NSArray"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)setTestDeviceIdentifiersWithTestDeviceIdentifiers:",
-            "mangledName": "$s10AdWhaleSDK0aB3AdsC24setTestDeviceIdentifiers04testgH0ySS_tF",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleAds(im)setTestDeviceIdentifiers:",
+            "mangledName": "$s10AdWhaleSDK0aB3AdsC24setTestDeviceIdentifiersyySo7NSArrayCF",
             "moduleName": "AdWhaleSDK",
-            "objc_name": "setTestDeviceIdentifiersWithTestDeviceIdentifiers:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -3220,6 +3357,311 @@
             "moduleName": "AdWhaleSDK",
             "implicit": true,
             "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GdprConsentStatus",
+        "printedName": "GdprConsentStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdWhaleSDK.GdprConsentStatus.Type) -> AdWhaleSDK.GdprConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GdprConsentStatus",
+                    "printedName": "AdWhaleSDK.GdprConsentStatus",
+                    "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdWhaleSDK.GdprConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GdprConsentStatus",
+                        "printedName": "AdWhaleSDK.GdprConsentStatus",
+                        "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus@GdprConsentStatusUnknown",
+            "mangledName": "$s10AdWhaleSDK17GdprConsentStatusO7unknownyA2CmF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "required",
+            "printedName": "required",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdWhaleSDK.GdprConsentStatus.Type) -> AdWhaleSDK.GdprConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GdprConsentStatus",
+                    "printedName": "AdWhaleSDK.GdprConsentStatus",
+                    "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdWhaleSDK.GdprConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GdprConsentStatus",
+                        "printedName": "AdWhaleSDK.GdprConsentStatus",
+                        "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus@GdprConsentStatusRequired",
+            "mangledName": "$s10AdWhaleSDK17GdprConsentStatusO8requiredyA2CmF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "notRequired",
+            "printedName": "notRequired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdWhaleSDK.GdprConsentStatus.Type) -> AdWhaleSDK.GdprConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GdprConsentStatus",
+                    "printedName": "AdWhaleSDK.GdprConsentStatus",
+                    "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdWhaleSDK.GdprConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GdprConsentStatus",
+                        "printedName": "AdWhaleSDK.GdprConsentStatus",
+                        "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus@GdprConsentStatusNotRequired",
+            "mangledName": "$s10AdWhaleSDK17GdprConsentStatusO11notRequiredyA2CmF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "obtained",
+            "printedName": "obtained",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdWhaleSDK.GdprConsentStatus.Type) -> AdWhaleSDK.GdprConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GdprConsentStatus",
+                    "printedName": "AdWhaleSDK.GdprConsentStatus",
+                    "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdWhaleSDK.GdprConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GdprConsentStatus",
+                        "printedName": "AdWhaleSDK.GdprConsentStatus",
+                        "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus@GdprConsentStatusObtained",
+            "mangledName": "$s10AdWhaleSDK17GdprConsentStatusO8obtainedyA2CmF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdWhaleSDK.GdprConsentStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GdprConsentStatus",
+                    "printedName": "AdWhaleSDK.GdprConsentStatus",
+                    "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10AdWhaleSDK17GdprConsentStatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10AdWhaleSDK17GdprConsentStatusO8rawValueACSgSi_tcfc",
+            "moduleName": "AdWhaleSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AdWhaleSDK17GdprConsentStatusO8rawValueSivp",
+            "mangledName": "$s10AdWhaleSDK17GdprConsentStatusO8rawValueSivp",
+            "moduleName": "AdWhaleSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AdWhaleSDK17GdprConsentStatusO8rawValueSivg",
+                "mangledName": "$s10AdWhaleSDK17GdprConsentStatusO8rawValueSivg",
+                "moduleName": "AdWhaleSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@AdWhaleSDK@E@GdprConsentStatus",
+        "mangledName": "$s10AdWhaleSDK17GdprConsentStatusO",
+        "moduleName": "AdWhaleSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
           }
         ]
       },
@@ -8215,6 +8657,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -8251,6 +8695,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -8281,6 +8727,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -8311,6 +8759,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -8660,14 +9110,42 @@
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 784,
+      "offset": 754,
+      "length": 46,
+      "value": "\"adwhale.privacy.tagForChildDirectedTreatment\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
+      "length": 41,
+      "value": "\"adwhale.privacy.tagForUnderAgeOfConsent\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 928,
+      "length": 36,
+      "value": "\"adwhale.privacy.maxAdContentRating\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 1004,
+      "length": 35,
+      "value": "\"adwhale.privacy.gdprConsentStatus\""
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "kind": "StringLiteral",
+      "offset": 1629,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 1238,
+      "offset": 2083,
       "length": 3,
       "value": "\"0\""
     },
@@ -8730,119 +9208,147 @@
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 427,
+      "offset": 295,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 438,
+      "offset": 317,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "kind": "IntegerLiteral",
+      "offset": 585,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "kind": "IntegerLiteral",
+      "offset": 596,
       "length": 16,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 464,
+      "offset": 622,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 478,
+      "offset": 636,
       "length": 14,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 996,
+      "offset": 1154,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1024,
+      "offset": 1182,
       "length": 11,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1058,
+      "offset": 1216,
       "length": 15,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1096,
+      "offset": 1254,
       "length": 10,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 1133,
+      "offset": 1291,
       "length": 11,
       "value": "4"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2229,
+      "offset": 2387,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2240,
+      "offset": 2398,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2256,
+      "offset": 2414,
       "length": 8,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2274,
+      "offset": 2432,
       "length": 3,
       "value": "3"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2845,
+      "offset": 3003,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2856,
+      "offset": 3014,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2872,
+      "offset": 3030,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
-      "offset": 2886,
+      "offset": 3044,
       "length": 5,
       "value": "3"
     },
