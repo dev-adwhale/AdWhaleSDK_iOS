@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "AdWhaleSDK"
-    s.version      = "1.0.4"
+    s.version      = "1.0.5"
     s.summary      = "AdWhaleSDK for iOS"
     s.description  = "AdWhaleSDK for iOS"
     s.homepage     = "https://www.cauly.net/index.html#/"
