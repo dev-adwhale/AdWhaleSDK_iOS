@@ -1111,6 +1111,74 @@
           },
           {
             "kind": "Function",
+            "name": "setUserId",
+            "printedName": "setUserId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleRewardAd(im)setUserId:",
+            "mangledName": "$s10AdWhaleSDK0ab6RewardA0C9setUserIdyySSF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomData",
+            "printedName": "setCustomData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdWhaleSDK@objc(cs)AdWhaleRewardAd(im)setCustomData:",
+            "mangledName": "$s10AdWhaleSDK0ab6RewardA0C13setCustomDatayySDyS2SGF",
+            "moduleName": "AdWhaleSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "ad",
             "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
             "children": [
@@ -9094,301 +9162,308 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "BooleanLiteral",
       "offset": 414,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "FloatLiteral",
       "offset": 444,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
       "offset": 754,
       "length": 46,
       "value": "\"adwhale.privacy.tagForChildDirectedTreatment\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
       "offset": 846,
       "length": 41,
       "value": "\"adwhale.privacy.tagForUnderAgeOfConsent\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
       "offset": 928,
       "length": 36,
       "value": "\"adwhale.privacy.maxAdContentRating\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
       "offset": 1004,
       "length": 35,
       "value": "\"adwhale.privacy.gdprConsentStatus\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
       "offset": 1629,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
       "offset": 2083,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleRewardAd.swift",
+      "kind": "Dictionary",
+      "offset": 353,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
       "kind": "StringLiteral",
       "offset": 1981,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
       "kind": "StringLiteral",
       "offset": 2103,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
       "kind": "StringLiteral",
       "offset": 2221,
       "length": 7,
       "value": "\"close\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
       "kind": "StringLiteral",
       "offset": 2349,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
       "kind": "StringLiteral",
       "offset": 2403,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/Cauly\/CaulyEventNative.swift",
       "kind": "StringLiteral",
       "offset": 2476,
       "length": 10,
       "value": "\"subtitle\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
       "offset": 155,
       "length": 7,
-      "value": "\"1.0.4\""
+      "value": "\"1.0.5\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 9,
-      "value": "\"1.0.4.0\""
+      "value": "\"1.0.5.0\""
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 295,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 317,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 342,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 585,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 596,
       "length": 16,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 622,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 636,
       "length": 14,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 1154,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 1182,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 1216,
       "length": 15,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 1254,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 1291,
       "length": 11,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 2387,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 2398,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 2414,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 2432,
       "length": 3,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 3003,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 3014,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 3030,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "IntegerLiteral",
       "offset": 3044,
       "length": 5,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "IntegerLiteral",
       "offset": 321,
       "length": 4,
       "value": "3600"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "IntegerLiteral",
       "offset": 328,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
       "offset": 571,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
       "offset": 607,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
       "offset": 691,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/fsn\/Documents\/AdWhaleSDK\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
+      "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AppOpenAd\/AdWhaleAppOpenAd.swift",
       "kind": "BooleanLiteral",
       "offset": 759,
       "length": 5,
