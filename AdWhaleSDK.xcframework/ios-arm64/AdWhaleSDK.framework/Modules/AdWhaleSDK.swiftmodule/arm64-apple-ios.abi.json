@@ -9271,14 +9271,14 @@
       "kind": "StringLiteral",
       "offset": 155,
       "length": 7,
-      "value": "\"1.0.5\""
+      "value": "\"1.0.6\""
     },
     {
       "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 9,
-      "value": "\"1.0.5.0\""
+      "value": "\"1.0.6.0\""
     },
     {
       "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
