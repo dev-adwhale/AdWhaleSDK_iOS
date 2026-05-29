@@ -12,6 +12,7 @@ import OSLog
 import Swift
 import UIKit
 import UserMessagingPlatform
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims

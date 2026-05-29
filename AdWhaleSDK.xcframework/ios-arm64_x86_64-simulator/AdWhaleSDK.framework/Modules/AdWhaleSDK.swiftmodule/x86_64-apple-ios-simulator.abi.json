@@ -16,6 +16,13 @@
       },
       {
         "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AdWhaleSDK"
+      },
+      {
+        "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
@@ -9164,56 +9171,56 @@
     {
       "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "BooleanLiteral",
-      "offset": 414,
+      "offset": 428,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "FloatLiteral",
-      "offset": 444,
+      "offset": 458,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 754,
+      "offset": 1434,
       "length": 46,
       "value": "\"adwhale.privacy.tagForChildDirectedTreatment\""
     },
     {
       "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 846,
+      "offset": 1526,
       "length": 41,
       "value": "\"adwhale.privacy.tagForUnderAgeOfConsent\""
     },
     {
       "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 928,
+      "offset": 1608,
       "length": 36,
       "value": "\"adwhale.privacy.maxAdContentRating\""
     },
     {
       "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1684,
       "length": 35,
       "value": "\"adwhale.privacy.gdprConsentStatus\""
     },
     {
       "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 1629,
+      "offset": 2309,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleAds.swift",
       "kind": "StringLiteral",
-      "offset": 2083,
+      "offset": 2794,
       "length": 3,
       "value": "\"0\""
     },
@@ -9271,14 +9278,14 @@
       "kind": "StringLiteral",
       "offset": 155,
       "length": 7,
-      "value": "\"1.0.6\""
+      "value": "\"1.0.7\""
     },
     {
       "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 9,
-      "value": "\"1.0.6.0\""
+      "value": "\"1.0.7.0\""
     },
     {
       "filePath": "\/Users\/junhojohn\/workspace\/01.repository\/iOS_XCODE\/adwhale-sdk-ios-wrapping\/AdWhaleSDK\/AdWhaleConst.swift",
