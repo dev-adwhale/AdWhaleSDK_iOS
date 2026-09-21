@@ -7,5 +7,4 @@ framework module AdWhaleSDK {
 
 module AdWhaleSDK.Swift {
   header "AdWhaleSDK-Swift.h"
-  requires objc
 }

@@ -1,8 +1,9 @@
 //
 //  CaulyAdSetting.h
-//  CaulySDK
+//  Cauly
 //
-//  Created by FSN on 10/23/23.
+//  Created by Neil Kwon on 9/2/15.
+//  Copyright (c) 2015 Cauly. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -28,8 +29,12 @@
 
 @property (nonatomic) CaulyReloadTime reloadTime;
 @property (nonatomic) CaulyAdSize adSize;
+// 배너 광고 뷰의 가로 폭(pt). 0이면 디바이스 전체 폭을 쓴다(기본값).
+@property (nonatomic) CGFloat bannerWidth;
 @property (nonatomic) CaulyAnim animType;
 @property (nonatomic) BOOL useDynamicReloadTime;
 @property (nonatomic) BOOL closeOnLanding;
+@property (nonatomic, strong) NSNumber *tagForChildDirectedTreatment; // nil = 미설정
+@property (nonatomic, strong) NSNumber *gdprConsentAvailable; // nil = 미설정
 
 @end
